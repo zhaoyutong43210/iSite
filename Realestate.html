@@ -3,13 +3,31 @@
 <html lang="cn"> 
 <head>
 
+  
+  <link rel="stylesheet" href="./Map/jquery-jvectormap.css" type="text/css" media="screen"/>
+  <script src="./Map/jquery-1.8.2.js"></script>
+  <script src="http://jvectormap.com/js/jquery-jvectormap-2.0.1.min.js"></script>
+  <script src="./Map/jquery-jvectormap-world-mill-en.js"></script>
+</head>
+  
+  
 <title>关于加拿大不动产</title>
+  
+  
 
 </head> 
 
 <body>
 
-<p> 温尼伯 </p>
+<p> 温尼伯是为数不多的公开房产交易价格的加拿大城市。作为安土重迁的中国人，在信息不对称的情况下很有可能落入房产中介的陷阱。</p>
+  
+
+  <div id="world-map" style="width: 600px; height: 400px"></div>
+  <script>
+    $(function(){
+      $('#world-map').vectorMap({map: 'world_mill_en'});
+    });
+  </script>
 
 </body>
 </html> 
