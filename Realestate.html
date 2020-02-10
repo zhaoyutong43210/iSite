@@ -8,6 +8,7 @@
   <script src="./Map/jquery-1.8.2.js"></script>
   <script src="https://jvectormap.com/js/jquery-jvectormap-2.0.1.min.js"></script>
   <script src="./Map/jquery-jvectormap-ca-lcc.js"></script>
+  <script src="./Map/ca_poupulation.js"></script>
   
 </head>
   
@@ -28,9 +29,33 @@
   <div id="world-map" style="width: 600px; height: 400px"></div>
   
   <script>
-    $(function(){
-      $('#world-map').vectorMap({map: 'ca_lcc'});
-    });
+  $(function(){
+      $('#world-map').vectorMap({
+    map: 'ca_lcc',
+    hoverOpacity: 0.7,
+    hoverColor: false,
+    series: {
+    regions: [{
+      values: poupData,
+      scale: ['#C8EEFF', '#0071A4'],
+      normalizeFunction: 'polynomial'
+    }]
+    },
+     onRegionTipShow: function(e, el, code){
+     el.html(el.html()+' (人口 - '+poupData[code]+')');
+     },
+      markerStyle: {
+      initial: {
+        fill: '#F8E23B',
+        stroke: '#383f47'
+      }
+    },
+     backgroundColor: '#383f47',
+      markers:[
+      {latLng: [49.88, -97.13], name: 'Winnipeg'}
+               ]
+});
+});
   </script>
 <h2>温尼伯 (City of Winnipeg) </h2>
   <p> 温尼伯是为数不多的公开房产交易价格的加拿大城市。作为安土重迁的中国人，在信息不对称的情况下很有可能落入房产中介的陷阱。</p>
