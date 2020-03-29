@@ -3,15 +3,180 @@
 <html lang="cn"> 
 <head>
 
-<title>关于加拿大心跳</title>
+<title> Heart Beat Canada| Yutong Zhao's Personal Site </title>
 
-</head> 
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content=" Yutong's persional site">
+	<meta name="author" content="Yutong Zhao">    
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <!----------------Global css------------------->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendors/revolution-slider/css/layers.css">
+    <link rel="stylesheet" href="vendors/revolution-slider/css/navigation.css">
+    <link rel="stylesheet" href="vendors/revolution-slider/css/settings.css">
+    <link rel="stylesheet" href="vendors/imagehover/css/imagehover.min.css">
+    <link rel="stylesheet" href="vendors/animate/animate.min.css">
+    <link rel="stylesheet" href="vendors/iCheck/css/all.css">
+    <link rel="stylesheet" href="vendors/sweetalert2/css/sweetalert2.min.css">
+    <!----------------custo css----------------->
+    <link rel="stylesheet" href="css/custom.css">
+	
+  
+  <link rel="stylesheet" href="./Map/jquery-jvectormap.css" type="text/css" media="screen"/>
+  <script src="./Map/jquery-1.8.2.js"></script>
+  <script src="https://jvectormap.com/js/jquery-jvectormap-2.0.1.min.js"></script>
+  <script src="./Map/jquery-jvectormap-ca-lcc.js"></script>
+  <script src="./Map/ca_poupulation.js"></script>
+  
+</head>
+  
+  
+  
+  
 
 <body>
 
-<p> 国家公园 </p>
+<div class="tp-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-7 col-md-6">
+                <a href="#"> <i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
 
-<p> 省级公园 </p>
+<header>
+    <div class="container">
+        <nav class="navbar navbar-default">
+            <div class="navbar-header">
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#myMegamenu"><span
+                        class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/3.png" class="img-responsive" alt="company-logo">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse navbar-right" id="myMegamenu">
+                <ul class="nav navbar-nav">
+                    <li class="list2"><a href="./index.html" class="hvr-underline-from-center">Yutong Zhao</a></li>
+                    <li class="list2"><a href="./MyExp.html" class="hvr-underline-from-center">My Experience</a></li>
+					<li class="list2"><a href="./physics.html" class="hvr-underline-from-center">Physics</a></li>
+                    <li class="list2"><a href="./CanadaHeartbeat.html" class="hvr-underline-from-center">Heart Beat Canada</a></li>
+					<li class="list2"><a href="./Realestate.html" class="hvr-underline-from-center">Real Estate Data</a></li>					
+					<li class="list2"><a href="./Immigrate.html" class="hvr-underline-from-center">Immigration</a></li>
+                    <li class="list2"><a href="./index_cn.html" class="hvr-underline-from-center">简体中文</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
 
+
+
+    <div class="row">
+	
+        <div class="col-sm-6 col-sm-offset-3 m-t-50">
+		<p>Welcome to Yutong Zhao's personal website! </p>
+            <h2 class="heading underline">Heart beat of Canada</h2>
+			
+            <p class="text-center"> Living in Winnipeg, the captial city of Manitoba provience, since 2014, I have spend more than 5 years in this city which is located in the center of Canada.
+			Exploring the beauty of the mother nature is part of my living philosophy.
+			</p>
+			
+            <h3 class="heading underline">The purpuse of this project  </h3>        
+			<p> In order to introduce the beauty of nature within Canada based on my own experience and my plan in the future, mainly in Manitoba but not limited to that province. </p>
+	        <h4 class="heading underline"> Breif introducation of park system of Canada </h4>
+			<p><a href="https://www.pc.gc.ca/en/index">Parks Canada</a> is an agency of the Government of Canada run by a chief executive who answers to the Minister of the Environment and Climate Change.</p>
+			
+			
+			<h5 class="heading underline"> National Park  </h5>
+			<p> The most important park is Riding Mountian National park. </p>
+			<h5 class="heading underline"> Provincial Park </h5>
+			
+     		<h4 class="heading underline"> Map </h4>
+			
+			
+            <div id="world-map" style="width: 600px; height: 400px"></div>
+		</div>
+    </div>       
+  
+  <script>
+  $(function(){
+      $('#world-map').vectorMap({
+    map: 'ca_lcc',
+    hoverOpacity: 0.7,
+    hoverColor: false,
+    series: {
+    regions: [{
+      values: poupData,
+      scale: ['#C8EEFF', '#0071A4'],
+      normalizeFunction: 'polynomial'
+    }]
+    },
+     onRegionTipShow: function(e, el, code){
+     el.html(el.html()+' (人口 - '+poupData[code]+')');
+     },
+      markerStyle: {
+      initial: {
+        fill: '#F8E23B',
+        stroke: '#383f47'
+      }
+    },
+     backgroundColor: '#383f47',
+      markers:[
+      {latLng: [49.895077, -97.138451], name: 'Winnipeg'},
+	  {latLng: [45.508888, -73.561668], name: 'Montreal'}
+               ]
+});
+});
+
+  </script>
+  
+     <div class="row">
+	 <div class="col-sm-6 col-sm-offset-3 m-t-50">
+<h2>温尼伯 (City of Winnipeg) </h2>
+  <p> 温尼伯是为数不多的公开房产交易价格的加拿大城市。作为安土重迁的中国人，在信息不对称的情况下很有可能落入房产中介的陷阱。</p>
+  <p> 关于购买不动产，需要支付房产律师费，政府查询费，贷款注册费，等等杂费。其中最大的费用为房产转让费。</p>
+  <p> 温尼伯市政府在其网页上提供了PDF文件形式的房产交易记录。自2010开始每两年发布一次，至今已经有10年公开的交易历史。
+    现存的发布于为2012年，2014年，2016年，2018年及2020年。</p>
+  <p><a href="http://winnipegassessment.com/AsmtTax/pdfs/SelfService/sales_book_market_region_1.pdf">2018年交易手册</a></p>
+  <p><a href="http://winnipegassessment.com/AsmtTax/pdfs/SelfService/2016/sales_book_market_region_1.pdf">2016年交易手册</a></p> 
+  <p><a href="http://winnipegassessment.com/AsmtTax/pdfs/SelfService/2014/sales_book_market_region_1.pdf">2014年交易手册</a></p>
+  <p><a href="http://winnipegassessment.com/AsmtTax/pdfs/SelfService/2012/sales_book_market_region_1.pdf">2012年交易手册</a></p>
+  
+ <a href="http://winnipegassessment.com/AsmtTax/English/SelfService/SalesBooks.stm">不动产交易手册查询入口（温尼伯官方- 英文网站）</a>
+  
+  <p>温尼伯的不动产的政府估值</p>
+ <p> 不动产的政府估值为房产税的征收提供了依据。房产税主要提供给社区的建设，主要是教育税。因此平均房价越高的社区，获得的社会服务越好。
+   在查询特定的房产信息时，您需要准备房屋的地址（街道名称和门牌号），或者房屋的卷宗号（Roll Number）。
+   <a href="http://www.winnipegassessment.com/AsmtTax/English/Propertydetails/default.stm">不动产估值查询入口（温尼伯官方- 英文网站）</a>
+   </p>
+   		</div>
+    </div>  
+	
+       <div class="row">
+	 <div class="col-sm-6 col-sm-offset-3 m-t-50">
+<h2> 蒙特利尔 (City of Montreal) </h2>
+  作者有幸认识定居蒙特利尔的朋友，因此关于蒙特利尔的查询正在建设中。
+  <p>蒙特利尔是在巴黎之后的第二大法语城市，因此该市的房产查询入口为法语界面。
+  <a href="https://servicesenligne2.ville.montreal.qc.ca/sel/evalweb/index">不动产估值查询入口（蒙特利尔官方- 法语网站）</a></p>
+     		</div>
+    </div>  
+  
 </body>
 </html> 

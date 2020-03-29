@@ -1,0 +1,16 @@
+<html lang="cn"> 
+<head>
+
+<title>加拿大房地产数据| 赵宇彤的个人网站</title>
+
+<authentication mode="Forms" >   //窗体验证方式
+<forms name="EDEMO" loginUrl="WebForm1.aspx" protection="All" timeout="30" ></forms>  //如果未通过则转向WebForm1.aspx
+</authentication>
+
+<authorization>
+<deny users="?" />       //拒绝未通过验证的用户
+<allow users="*" />      //允许通过验证的用户
+</authorization>
+
+</body>
+</html> 
