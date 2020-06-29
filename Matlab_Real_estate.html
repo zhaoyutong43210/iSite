@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="cn"> 
+<head>
+<title>加拿大不动产大数据 | 赵宇彤的个人网站</title>
+
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content=" Yutong's persional site">
+	<meta name="author" content="Yutong Zhao">    
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <!----------------Global css------------------->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendors/revolution-slider/css/layers.css">
+    <link rel="stylesheet" href="vendors/revolution-slider/css/navigation.css">
+    <link rel="stylesheet" href="vendors/revolution-slider/css/settings.css">
+    <link rel="stylesheet" href="vendors/imagehover/css/imagehover.min.css">
+    <link rel="stylesheet" href="vendors/animate/animate.min.css">
+    <link rel="stylesheet" href="vendors/iCheck/css/all.css">
+    <link rel="stylesheet" href="vendors/sweetalert2/css/sweetalert2.min.css">
+    <!----------------custo css----------------->
+    <link rel="stylesheet" href="css/custom.css">
+	
+	<script language="javascript">
+function showPic(sUrl){
+var x,y;
+x = event.clientX;
+y = event.clientY;
+document.getElementById("Layer1").style.left = x;
+document.getElementById("Layer1").style.top = y;
+document.getElementById("Layer1").innerHTML = "<img src=\"" + sUrl + "\">";
+document.getElementById("Layer1").style.display = "block";
+}
+function hiddenPic(){
+document.getElementById("Layer1").innerHTML = "";
+document.getElementById("Layer1").style.display = "none";
+}
+</script>
+
+		  <link rel="stylesheet" href="./Map/jquery-jvectormap.css" type="text/css" media="screen"/>
+		  
+</head> 
+<body>
+
+<div class="tp-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-7 col-md-6">
+                <a href="https://www.facebook.com/YutongZhao0"> <i class="fa fa-facebook" aria-hidden="true"></i></a>                
+                <a href="https://www.linkedin.com/in/yutong93"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+				<div id="Layer1" style="display:none;position:absolute;z-index:1;"></div>				
+				<a href="" onmouseout="hiddenPic();" onmousemove="showPic('./images/qrcode.jpg');"><i class="fa fa-wechat" aria-hidden="true"></i></a>
+				<a href="mailto:zhaoy327@myumanitoba.ca?subject = Feedback&body = Message"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+				<a href="mailto:zhaoyutong4321@gmail.com?subject = Feedback&body = Message"><i class="fa fa-google" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<header>
+    <div class="container">
+        <nav class="navbar navbar-default">
+            <div class="navbar-header">
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#myMegamenu"><span
+                        class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/3.png" class="img-responsive" alt="company-logo">
+                </a>
+            </div>
+			
+			
+            <div class="collapse navbar-collapse navbar-right" id="myMegamenu">
+                <ul class="nav navbar-nav">				
+				    <li class="list2"><a href="./index_cn.html" class="hvr-underline-from-center">赵宇彤</a></li>
+                    <li class="list2"><a href="./MyExp_cn.html" class="hvr-underline-from-center">经历</a></li>
+					<li class="list2"><a href="./Physics_cn.html" class="hvr-underline-from-center">物理</a></li>
+                    <li class="list2"><a href="./CanadaHeartbeat_cn.html" class="hvr-underline-from-center">心跳加拿大</a></li>
+					<li class="list2"><a href="./Realestate_cn.html" class="hvr-underline-from-center">不动产数据</a></li>					
+					<li class="list2"><a href="./Immigrate_cn.html" class="hvr-underline-from-center">移民加拿大</a></li>
+                    <li class="list2"><a href="./index.html" class="hvr-underline-from-center">English</a></li>					
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+
+
+    <div class="row">
+	
+        <div class="col-sm-6 col-sm-offset-3 m-t-50">
+		<p>欢迎来到赵宇彤的个人网站! </p>
+		
+		
+		<h1 class="text-center">如何用MATLAB看懂温尼伯房地产</h1>
+		
+		
+		<h2 class="text-center">数据来源</h2>
+		<p>将房产估值和销售数据公开的加拿大城市屈指可数，温尼伯做为其中之一提供了一个不错的研究对象，正巧又是笔者生活了五年的城市。疫情期间的空闲时间又为笔者提供了创作的可能。
+		温尼伯市政的房产估值（property accessment）提供了多种数据形式,<a href="https://data.winnipeg.ca/Assessment-Taxation-Corporate/Assessment-Parcels/d4mq-wa44/data">温尼伯市政府数据公开链接</a>，
+		进入后点击“Export”，再浏览器左侧就能找到对应的数据形式。我们使用了物理实验领域较为通用的格式——csv文件作为数据读取的原格式。熟悉JavaSCript的朋友还可以用JSON格式。
+		政府估值作为收税的依据有着重要的参考价值，比如我们可以得知该区域的平均价格。 </p>
+		<p>除政府估值外，市政还提供了2010年以来的房产交易记录（sale book），每两年以pdf格式的书籍发布一次。<a href="http://winnipegassessment.com/AsmtTax/English/SelfService/SalesBooks.stm">发布地址</a>	</p>
+  <p class="text-center"><a href="http://winnipegassessment.com/AsmtTax/pdfs/SelfService/sales_book_market_region_1.pdf">     2018年交易手册</a></p>
+  <p class="text-center"><a href="http://winnipegassessment.com/AsmtTax/pdfs/SelfService/2016/sales_book_market_region_1.pdf">2016年交易手册</a></p> 
+  <p class="text-center"><a href="http://winnipegassessment.com/AsmtTax/pdfs/SelfService/2014/sales_book_market_region_1.pdf">2014年交易手册</a></p>
+  <p class="text-center"><a href="http://winnipegassessment.com/AsmtTax/pdfs/SelfService/2012/sales_book_market_region_1.pdf">2012年交易手册</a></p>
+ 
+        <p>根据其中的信息，我们可以使用MATLAB中的读取文件的信息和正则表达式生成容易处理的文件，如.mat格式并合并不同交易区域的数据，最终得到2010-2020年度温尼伯市房产交易的全部资料。</p>
+		<p><a href="http://houses.nickv.codes/">For sold</a>是一个由温尼伯人Nick Verwymeren制作的网站，该网站展示了2010年到2016年4月的销售数据。本项目由此得到了一些灵感。</p>
+		
+		<p>特别声明： 由于市政府不对数据的绝对准确性做担保。各种原因造成的原始数据问题，本文同样无法保证。在此只能给出统计学的趋势分析，作为利益无关的第三方，希望您能在阅读本文后
+		可以获知温尼伯房地产市场的基本行情。尽最大可能的保证您的切身利益、房产交易的公平性。</p>
+		
+		
+		<h2 class="text-center">基本信息</h2>
+		<p>2019年度，温尼伯本市有23万3860个不动产单位，包括住宅、商业中心、博物馆甚至农业用地等等。其中住宅有19万4251栋。</p>
+		<p>作为价值最高的房地产，Polo Park 购物中心以 7亿3718万加元位列全市第一。</p>
+		<p>本省最高学府，曼尼托巴大学（Fort Garry校区）以 3亿3887万加元 位列最值钱的教育机构，同时健康医学中心（HSC）以 2亿3478万加元 位列第二。</p>
+		<p>最贵的个人房产位于 550 Park Blvd West，建于1956年，建筑面积 9860平方尺（916平方米），总价值为475万加元。</p>
+		<p>百万以上的住宅共有1015栋，五十万以上的住宅则有1万2825栋。三十万以上8万9625栋，二十万以上有16万2236栋。</p>
+		<p>最古老的住宅是167 La Verendrye street，始建于1870年，至今已有150年历史。</p>
+		<!-- <img src="./images/1870House.png"  alt="1870年老房" height = "300" align ="middle"/> -->
+		
+		<h2 class="text-center">看见数据</h2>
+		
+		<p>图1根据地图给出了温尼伯房地产建筑年份，从图中可以看出温尼伯城市的发展历史。市中心downtown的建筑大多成型在19世纪10年代，
+		当时温尼伯是加拿大境内的第三大城市，扮演了重要铁路枢纽的角色并逐渐繁荣起来。随着时间的推移，城市的边界不断向外扩张，
+		直到今天仍在进行。如果读者细心。你会注意到蓝色为主的市中心星星点点的暗红色，这些则对应着新世纪以来的建筑重建。</p>
+		
+		<img src="./images/Pic-History.png"  alt="温尼伯房地产建筑年份地图" height = 600 />
+		<figcaption  class="text-center">图 1 - 温尼伯房产建筑年份颜色图，建筑年份越早，在图上的数据的越蓝，建筑年份越晚，则数据点越红。</figcaption>
+		
+		<p>图2根据时间画出了1900年以来的温尼伯新增房屋数量。 1900-1910年代，温尼伯经历了蓬勃的发展并建设了大量的住宅，直到1914-1918年，第一次世界大战中后期，
+		温尼伯的房产市场转入冰期。随着一战士兵的回国、战后经济衰退和工人运动的发展引爆了1919年温尼伯大罢工。该事件直接影响到了温尼伯未来若干年的发展。
+		之后随着经济复苏，温尼伯房地产市场也缓慢恢复，直到1929年，资本主义世界的股市崩盘引爆了大萧条，人们大量失业，使得新建房屋的数量一度触底。
+		直到第二次世界大战的爆发，政府的战争支出导致了萧条的经济从大萧条中复苏。由于战争带来的高就业率，战争结束时，被压抑的需求推动了住房发展，把新建房屋数量推到了一个高峰。
+		随之而来的是1950年红河洪水，淹没了城市的大部分地区，以至于动用了军队和红十字会进行救援。当年城市建设基本停滞。本次洪水也促成了政府修建红河泄洪水道。
+		此后十多年的战后经济复苏也带来了大量的新增房屋。直到1980年，北美陷入了经济衰退。同年，联邦政府出台了一系列经济刺激计划，并维持了7年。1987年美国股灾后，
+		房地产陷入了低迷的状态。进入新世纪，房屋新增缓慢回升。因为温尼伯的国际化程度不高，即便是2008年的金融海啸也没有对该城的房屋新增产生明显的影响。
+		</p>
+		<p>作者私货: 对比一战二战战后截然不同的表现，恰恰能说明两场战争的性质不同。
+		一战是落后的、重新瓜分世界的、争夺全球霸权的一场战争，战后马上发生的大罢工恰恰反应了激化的社会矛盾、风起云涌的社会主义思潮。因此战后的复苏很弱，进而紧随而来的大萧条更是无可避免的影响了温尼伯这个小城。
+		二战是进步的、正义的反法西斯战争。客观上以科学技术的进步发展、极高的就业率和战后稳定的国际关系，在战后使得普通人的生活受益。
+		这些因素综合起来反应在温尼伯的新增房屋数量随时间的变化关系上，感觉也是很有意思的一件事。</p>
+		
+		<img src="./images/Pic-Increase_History2.png"  alt="温尼伯房屋增量历史" width = 860 />
+		<figcaption  class="text-center">图 2 - 温尼伯房产建筑年份直方图，反映了温尼伯的房屋增量随时间发展的关系。</figcaption>
+		
+		<p>另一项指标是价格分布，能间接衡量收入分布来看社会分配结构是否合理。图3反应了房产价格的分布从1万加元到100万加元的分布（去掉了占总量0.3%的大于100万加元的极端值），从图中可知，温尼伯的房产价格呈现正态分布。其中平均数为30.19万元，众数为28.9万元，中位数为28.4千元，三数相差不大，反映了市场的健康合理性。
+		标准差（sigma）为13.19万元，由此可知有68.2%的房屋分布在（17.0-43.4）万元区间，95.4%的房屋在（1.0-56.6）万元区间。99.5%的房屋在69.7万元以下。</p>
+		
+		<img src="./images/Pic-Price_hist.png"  alt="温尼伯房屋价格分布直方图" width = 600 />
+		<figcaption  class="text-center">图 3 - 温尼伯房产价格分布直方图，反映了温尼伯的房屋价格的随数量的分布。价格单位为万加元。</figcaption>
+		
+		
+	    <p>温尼伯房价的价格地图由图4 给出。从图中可以看出一些特点，比如温尼伯房产的价格总体呈现北区低而南区高。市中心Downtown/交换区exchange district由于高楼林立，办公楼、写字楼的存在构成了forks附近的深红色区域，对应着繁华的商业中心。
+		然而由于不断恶化的治安环境和房屋老化等因素，紧紧围绕着的市中心的是深蓝色的低价格房产区。Pembina高速、portage高速等大路沿线呈现了随着道路颜色的深红色区域，也是由于门面店铺的存在和蕴含的商业价值。
+		另外在红河和阿西尼博因河沿线分布着一片一片的红色区域，则对应着集中分布的豪华河景房。均价最高的社区是毗邻阿西尼博因公园的Tuxedo社区，也是最贵房产的所在社区。</p>
+		<p>如果我们放眼华人集中的南区，则均价最高的是Linden woods社区和brigdge water forest社区（左下方位），卓越的地理位置和较新的房龄使得这里成了很多华人投资的选择。
+		此外靠近曼大的社区比如Fort Richmond、Fort Richmond West、farfield park等由于靠近大学、交通便利，则成为了留学生的首选。 对比图1和图4，我们不难发现房屋的价格和年限存在一定的正比关系，但是也不是简单的线性关系，由各种原因综合决定。</p>
+		
+		<img src="./images/Pic-Value.png"  alt="温尼伯房屋价格分布地图" height = 600 />
+		<figcaption  class="text-center">图 4 - 温尼伯房屋价格分布地图，反映了温尼伯的房屋价格的随地理区位的分布。价格单位为万加元。为了颜色对比明显，颜色变化设定为从1万加元到70万加元</figcaption>
+		
+		<p>以上是基于温尼伯当前房地产市场的静态分析。数据仅仅来源于当前的政府评估。由于市政并没有提供历史评估记录，因此随时间变化的评估价格无处可查。 <p>
+		
+		<h3 class="text-center">流动性及增值性</h3>
+		<p>基于2010年1月1日到2018年4月1日的住宅交易数据，我们可知共有82，085条交易记录。涵盖了72，820个独立房产，占温尼伯私人住宅数量的37.49%，绝大部分（共57，128个）的房产在8年的时间里只交易过一次，占交易总量的78.45%。
+		由此可知，大部分持有房产总体上是一项长期投资。接近40%的交易总量百分比对于房地产而言则是一个令人惊讶的高数据，预示着房地产的活跃程度和经济活力。因此笔者判断温尼伯的房产的流动性非常好。
+		如果我们按时间顺序画出温尼伯的房产交易曲线（如图5），可见交易量随季节呈现周期性变化。夏季尤其是六七月份是房产交易的最高峰。随着温度的降低，房产交易也随之降低，交易的寒冬则从十二月至次年二月。
+		季节的变化无时无刻不在影响人们的生活和经济的走势，能从这些数据中看到大自然的神奇影响。总体来说，温尼伯的房产交易量随时间变化平稳，</p>
+		
+		<img src="./images/Pic-Increase_History3.png"  alt="温尼伯房屋交易量历史" width = 860 />
+		<figcaption  class="text-center">图 5 - 温尼伯房产交易量随时间变化的直方图，反映了温尼伯的房屋交易量随时间发展的关系。</figcaption>
+		
+		
+		<p>有7，485栋住宅则有两次或者两次以上的交易记录。如果我们考虑到两次的交易价格的差距和时间的间隔，就可以计算出每年的增值率。平均增值率为7.93%，标准差为10.24%，中位数为4.46%，区间众数为2.22%。考虑到加拿大的平均通货膨胀率2.4%，则实际平均增值率在5.53%左右，考虑到中位数实际增长为2.06%，区间众数实际增长为-0.18%。 
+		在考虑通货膨胀的情况下，我们选择名义增值率1.4% ~ 3.4%区间/实际增值率-1% ~ 1% 的房屋为保值，小于此区间的为贬值，高于此区间的增值。
+		则我们可以通过计算得出，相当部分房屋（占比为18.10%）为保值的作用。有15.30%的房屋出现了实际贬值的情况，剩余55.5%则是增值情况。<p>
+		
+			<img src="./images/Pic-Increase_History4.png"  alt="温尼伯房屋增值统计" width = 500 />
+		<figcaption  class="text-center">图 5 - 温尼伯房产增值百分比直方图，反映了温尼伯的房屋增值分布。</figcaption>
+				
+	
+		<h3 class="text-center"></h3>
+		
+		<h3 class="text-center">以南区某住宅为例</h3>
+		
+		<p></p>
+		<p></p>
+		
+		<h4 class="text-center">其他基本概念</h4>
+		<p> 温尼伯的不动产有以下集中类型：</p> 
+		<p>    DESIGNATED HIGHER EDU 高等教育用地 </p>
+		<p> "DESIGNATED REC 休闲场所用地"</p>
+		<p> "FARM" 农业用地</p>
+		<p> "FARM USE VALUE" 农场使用价值</p>
+		<p> "INSTITUTIONAL" 机构用地</p>
+		<p> "OTHER" 其他</p>
+		<p> "RESIDENTIAL 1" 住宅类型1</p>
+		<p> "RESIDENTIAL 2" 住宅类型2</p>
+		<p> "RESIDENTIAL 3" 住宅类型3</p>
+		<p> "STATUTORY PIPELINE" 法定管道</p>
+		<p> "STATUTORY RAILWAY" 法定铁路</p>
+		<p> 温尼伯的不动产分为10个市场区域（Market Region）：</p> 
+		
+		<h2 class="text-center">结语</h2>
+		<p>本项目的最初想法是做一个个性化的数据分析网站，比如输入目标房地产的地址，网站可以输出显示一下最近今年的成交量，成交走势，小区的平均房价等等的个性化房产报告。
+		但是因为本人能力有限，在html、JavaScript和数据库等等里只能算是初学者，这个貌似有些宏伟的计划仅凭个人之力恐怕无法达成。
+		本文有感于我的亲身经历，因为房产交易的特殊性、数据获取的困难性，使得对于个人很难看清其中的全貌。
+		以上信息全部来源于公开信息、官方渠道。希望您能在阅读本文后，能对温尼伯的房地产市场有一个基本但是全面的了解。任何人转载本文请注明出处。
+		任何人不应以此信息牟利，如果发现类似情况，请与作者联系。
+		最后，祝大家心想事成，积极向上，面对生活。</p>
+		<h3 class="text-center">附录：MATLAB爬虫</h3>
+		<p>将地址变成经纬度的过程被称为坐标化（Geocoding），MATLAB作为一种编程软件，自然是可以完成的。	</p>
+		<h3 class="text-center">个性化订制(数据报告) / 联系我们</h3>
+		
+		<p> 项目公开数据之外，本项目组提供个性化定制的数据，详见案例，该项服务可能产生费用。</p>
+        <p> 我们本着诚信、开放的原则欢迎合作。 具体情况请通过 电话/短信/微信/电邮 垂询。</p>
+        <p> 电话/短信: +1（204）293-0625 </p>
+		<p> 电子邮箱: zhaoyutong43210@gmail.com </p>
+		<p> 微信: 请见个人网站二维码。 </p>
+		
+		
+				<!------------Footer Caret Shape------------>
+	
+	
+	<!------------Footer Caret Shape------------>
+<div class="shape section-top-50"></div>
+<!------------Footer Caret Shape end------------>
+<section class="footer_one">
+    <footer>
+        <div class="container">
+            <div class="row section-top-40">
+                <div class="col-md-3 col-sm-6 section-top-25">
+                    <h4 class="text-white">特别鸣谢</h4>
+                    <hr/>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <p class="footer_text_color">致我的家人，我的爱人以及那些在最困难的时候陪伴我的朋友们。</p>
+                        </div>
+
+                        <div class="col-xs-12">
+                            <span class="foot_icon">
+                            <a href="https://www.facebook.com/YutongZhao0"><i class="fa fa-facebook section-top-10 footer_social_icons" aria-hidden="true"></i></a>
+
+                            <a href="https://www.linkedin.com/in/yutong93"><i class="fa fa-linkedin section-top-10 footer_social_icons" aria-hidden="true"></i></a>
+										   
+							<div id="Layer1" style="display:none;position:absolute;z-index:1;"></div>
+                            <a href="" onmouseout="hiddenPic();" onmousemove="showPic('./images/qrcode.gif');"><i class="fa fa-wechat section-top-10 footer_social_icons" aria-hidden="true"></i></a>
+								
+							<a href="mailto:zhaoy327@myumanitoba.ca?subject = Feedback&body = Message"><i class="fa fa-envelope section-top-10 footer_social_icons" aria-hidden="true"></i></a>
+				
+				            <a href="mailto:zhaoyutong4321@gmail.com?subject = Feedback&body = Message"><i class="fa fa-google section-top-10 footer_social_icons" aria-hidden="true"></i></a>
+                        </span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-3  col-lg-3 col-sm-6 section-top-25">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h4 class="text-white">报错</h4><hr/>
+							<p class="footer_text_color">如果您有任何问题，请使用微信或者邮箱联系我。我会尽快答复。 </p>
+                            
+                        </div>
+                    
+
+                        </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 section-top-25">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h4 class="text-white">一家之言</h4><hr/>
+							<p class="footer_text_color"> 青山一道同云雨，明月何曾是两乡。</p>
+                            
+                        </div>
+
+                        <div class="col-xs-12">
+                            <div class="tweet">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</section>
+<!-------------------Footer section End------------------>
+<!------------------Copy rights------------------->
+<section class="copy-rights">
+    <div class="container ">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 section-top-15">
+                <p class="footer_text_color"><a href="./index.html">主页</a> &nbsp;
+                    <a href="./MyExp_cn.html">经历</a> &nbsp;
+					<a href="./Physics_cn.html">物理</a> &nbsp;
+					<a href="./CanadaHeartbeat_cn.html">旅行</a> &nbsp;
+					<a href="./Immigrate_cn.html">移民</a> &nbsp;
+                    <a href="mailto:zhaoy327@myumanitoba.ca?subject = Feedback&body = Message">联系我</a> &nbsp;
+					 <a href="./index.html">English</a> </p>
+            </div>
+            <div class="col-xs-12 col-sm-6 text-right section-top-15">
+
+                <p class="footer_text_color  ">Copyright &copy; 2020. All rights reserved. Yutong  Zhao</a></p>
+            </div>
+        </div>
+        <a href="#" id="return-to-top"><img src="images/backto.png" alt="image-missing"></a>
+    </div>
+</section>
+<!------------------Copy rights End------------------>
+
+</body>
+</html> 
