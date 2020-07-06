@@ -105,22 +105,27 @@ document.getElementById("Layer1").style.display = "none";
 		
 		<h1 class="text-center">如何用MATLAB看懂温尼伯房地产</h1>
 		
-		<p>本文着眼于。</p>
+		<p>对于国人来说，投资房地产几乎是每个成年人绕不开的话题。刚来加拿大的前几年，有一次温尼伯南区要增设一个大功率的手机信号塔，因此开了一次听证会，我也去凑了凑热闹。从我的角度来说，我是支持这个计划的，
+		因为我对温尼伯的手机信号不满已久。而且我的研究方向涉及到微波——手机信号的载体，对于其对健康的影响比大部分人都更了解一些，因此我并不担心信号塔的安全性。会议期间我发现不管是国人还是加拿大人都对这个计划充满敌意，有的人认为这会对健康造成伤害，而更多的华人担心，这是否会影响房价。
+		本文着眼于分析温尼伯加拿大的房地产数据，作为一个简单的大数据分析项目，旨在找出房产走势的关键数据和影响因素。</p>
+		<p>特别注意：温尼伯把住宅分为两大类，一种是房屋，另一种是公寓（Condominiums）。本文只考虑了房屋的交易记录，而公寓的走势没有包含在这些图表之中。</p>
 		<h2 class="text-center">数据来源</h2>
 		<p>将房产估值和销售数据公开的加拿大城市屈指可数，温尼伯做为其中之一提供了一个不错的研究对象，正巧又是笔者生活了五年的城市。疫情期间的空闲时间又为笔者提供了创作的可能。
-		温尼伯市政的房产估值（property accessment）提供了多种数据形式,<a href="https://data.winnipeg.ca/Assessment-Taxation-Corporate/Assessment-Parcels/d4mq-wa44/data">温尼伯市政府数据公开链接</a>，
+		温尼伯市政的房产估值（property accessment）提供了多种数据形式, 从<a href="https://data.winnipeg.ca/Assessment-Taxation-Corporate/Assessment-Parcels/d4mq-wa44/data">温尼伯市政府数据公开链接</a>可以获取本年度温尼伯市辖区的全部资料，
 <!-- 		进入后点击“Export”，再浏览器左侧就能找到对应的数据形式。我们使用了物理实验领域较为通用的格式——csv文件作为数据读取的原格式。熟悉JavaSCript的朋友还可以用JSON格式。 -->
-		政府估值作为收税的依据有着重要的参考价值，比如我们可以得知该区域的平均价格。 </p>
-		<p>除政府估值外，市政还提供了2010年以来的房产交易记录（sale book），每两年以pdf格式的书籍发布一次。目前可以得到的有2016和2018年两年的pdf交易记录，<a href="http://winnipegassessment.com/AsmtTax/English/SelfService/SalesBooks.stm">发布地址</a>	</p>
+		政府估值作为收税的依据有着重要的参考价值，比如我们可以得知该社区的平均价格，您看中的房产的价格等等。 </p>
+		<p>除政府估值外，市政还提供了2010年以来的房产交易记录（sale book），每两年以pdf格式的书籍发布一次。目前可以得到的有2016和2018年两年的pdf交易记录，<a href="http://winnipegassessment.com/AsmtTax/English/SelfService/SalesBooks.stm">发布地址</a>：	</p>
   <p class="text-center"><a href="http://winnipegassessment.com/AsmtTax/pdfs/SelfService/sales_book_market_region_1.pdf">     2018年交易手册</a></p>
   <p class="text-center"><a href="http://winnipegassessment.com/AsmtTax/pdfs/SelfService/2016/sales_book_market_region_1.pdf">2016年交易手册</a></p> 
   <!-- <p class="text-center"><a href="http://winnipegassessment.com/AsmtTax/pdfs/SelfService/2014/sales_book_market_region_1.pdf">2014年交易手册</a></p> -->
   <!-- <p class="text-center"><a href="http://winnipegassessment.com/AsmtTax/pdfs/SelfService/2012/sales_book_market_region_1.pdf">2012年交易手册</a></p> -->
  
-        <p>根据其中的信息，我们可以使用MATLAB中的读取文件的信息和正则表达式生成容易处理的文件，最终得到2010-2020年度温尼伯市房产交易的全部资料。</p>
-		<p><a href="http://houses.nickv.codes/">For sold</a>是一个由温尼伯人Nick Verwymeren制作的网站，该网站展示了2010年到2016年4月的销售数据。本项目由此得到了一些灵感。</p>
+        <p>根据其中的信息，我们可以使用MATLAB中的读取文件的信息和正则表达式生成容易处理的文件，最终得到2010-2020年度温尼伯市房产交易的全部资料。然而由于数据发布的滞后性，我们很难得到当前的房地产市场走向。
+		幸运的是，房产的特性不同于股票等证券，绝大部分人持有房产是一个长期的过程。而且由于高昂的交易税费，短期内购买并售出并不能获利很多。
+		因此缺少最新数据并不能减少本项目的实际参考意义。</p>
+		<p><a href="http://houses.nickv.codes/">For sold</a>是一个由温尼伯人Nick Verwymeren制作的网站，该网站按地图展示了2010年到2016年4月的销售数据。本项目由此得到了一些灵感。</p>
 		
-		<p>特别声明： 由于市政府不对数据的绝对准确性做担保。各种原因造成的原始数据问题，本文同样无法保证。在此只能给出统计学的趋势分析，作为利益无关的第三方，希望您能在阅读本文后
+		<p>特别声明： 由于市政府不对数据的绝对准确性做担保。各种原因造成的原始数据问题，本文同样无法保证。因此本文不承担任何数据的有关责任。在此只能给出统计学的趋势分析，作为利益无关的第三方，希望您能在阅读本文后
 		可以获知温尼伯房地产市场的基本行情。尽最大可能的保证您的切身利益、房产交易的公平性。</p>
 		
 		
@@ -130,7 +135,7 @@ document.getElementById("Layer1").style.display = "none";
 		<p>本省最高学府，曼尼托巴大学（Fort Garry校区）以 3亿3887万加元 位列最值钱的教育机构，同时健康医学中心（HSC）以 2亿3478万加元 位列第二。</p>
 		<p>最贵的个人房产位于 550 Park Blvd West，建于1956年，建筑面积 9860平方尺（916平方米），总价值为475万加元。</p>
 		<p>百万以上的住宅共有1015栋，五十万以上的住宅则有1万2825栋。三十万以上8万9625栋，二十万以上有16万2236栋。</p>
-		<p>最古老的住宅是167 La Verendrye street，始建于1870年，至今已有150年历史。</p>
+		<p>最古老的住宅位于167 La Verendrye street，始建于1870年，至今已有150年历史。</p>
 		<!-- <img src="./images/1870House.png"  alt="1870年老房" height = "300" align ="middle"/> -->
 		
 		<h2 class="text-center">看见数据</h2>
@@ -171,7 +176,7 @@ document.getElementById("Layer1").style.display = "none";
 		然而由于不断恶化的治安环境和房屋老化等因素，紧紧围绕着的市中心的是深蓝色的低价格房产区。Pembina高速、portage高速等大路沿线呈现了随着道路颜色的深红色区域，也是由于门面店铺的存在和蕴含的商业价值。
 		另外在红河和阿西尼博因河沿线分布着一片一片的红色区域，则对应着集中分布的豪华河景房。均价最高的社区是毗邻阿西尼博因公园的Tuxedo社区，也是最贵房产的所在社区。</p>
 		<p>如果我们放眼华人集中的南区，则均价最高的是Linden woods社区和brigdge water forest社区（左下方位），卓越的地理位置和较新的房龄使得这里成了很多华人投资的选择。
-		此外靠近曼大的社区比如Fort Richmond、Fort Richmond West、farfield park等由于靠近大学、交通便利，则成为了留学生的首选。 对比图1和图4，我们不难发现房屋的价格和年限存在一定的正比关系，但是也不是简单的线性关系，由各种原因综合决定。
+		此外靠近曼大的社区比如Fort Richmond、Fort Richmond West、farfield park等由于靠近大学、交通便利，则成为了上班族和留学生的首选。 对比图1和图4，我们不难发现房屋的价格和年限存在一定的正比关系，但是也不是简单的线性关系，由各种原因综合决定。
 		比如学区、交通路线、房屋质量、社区平均质量等等因素。取决于市政的数据情况，我们还会在未来探究这些联系。</p>
 		
 		<img src="./images/Pic-Value.png"  alt="温尼伯房屋价格分布地图" height = 600 />
@@ -199,14 +204,22 @@ document.getElementById("Layer1").style.display = "none";
 		
 			<img src="./images/Pic-Increase_History4.png"  alt="温尼伯房屋增值统计" width = 500 />
 		<figcaption  class="text-center">图 5 - 温尼伯房产增值百分比直方图，横轴的单位是每年的增值百分比。反映了温尼伯的房屋增值分布。</figcaption>
-				
+		<p>平均交易价格随时间的变化也能反应出市场的增值变化趋势，图中再一次的展示了季节影响的周期性规律。有数据以来，最低平均价格出现在2010年3月，为19万9千加元。随时间推移，最高平均价格出现在2017年7月，为32万8千加元.
+		使用简单线性拟合可知，温尼伯平均房价每个月增长950加元，则推断平均每年增长11400加元。</p>
+						<img src="./images/Pic-Increase_averagetime.png"  alt="温尼伯房屋增值统计" width = 800 />
+		<figcaption  class="text-center">图 6 - 温尼伯每月平均售价变化趋势，横轴的单位是交易时间，纵轴的单位是。反映了温尼伯的房屋增值分布。</figcaption>
+		
 	
-		<h3 class="text-center"></h3>
+		<h3 class="text-center">这些数据能做什么？</h3>
+		<p> 大数据可以根据需求精准分析，帮助您规避风险，做出高效科学的投资建议。为您省心省钱。</p>
+		<p> 大数据根据各种公开经济数据，预测房价的未来走势。</p>
+		<p> 大数据可以根据历史数据给出您房产的真实市场价值，维护您的利益。</p>
 		
-		<h3 class="text-center">以南区某住宅为例</h3>
+		<!-- <h3 class="text-center">案例分析：以南区某住宅为例</h3> -->
 		
-		<p></p>
-		<p></p>
+		<!-- <p>拿我朋友的房子为例，该房屋的购买时间为2018年，当时的市政估价为。</p> -->
+		
+
 		
 		<h4 class="text-center">其他基本概念</h4>
 		<p> 温尼伯的不动产有以下几种类型：</p> 
@@ -221,7 +234,7 @@ document.getElementById("Layer1").style.display = "none";
 		<p> 9.	 RESIDENTIAL 3  住宅类型3</p>
 		<p> 10.	 STATUTORY PIPELINE  法定管道</p>
 		<p> 11.  STATUTORY RAILWAY  法定铁路</p>
-		<p> 温尼伯的不动产分为10个市场区域（Market Region）：</p> 
+		<!-- <p> 温尼伯的不动产分为10个市场区域（Market Region）：</p>  -->
 		
 		<h2 class="text-center">结语</h2>
 		<p>本项目的最初想法是做一个个性化的数据分析网站，比如输入目标房地产的地址，网站可以输出显示一下最近今年的成交量，成交走势，小区的平均房价等等的个性化房产报告。
