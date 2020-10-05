@@ -133,17 +133,17 @@ document.getElementById("Layer1").style.display = "none";
 			
 			<p>3月26日，提出<a href="./source/Time-Domain-GroupMeeting.pptx">用数值方法求解耦合谐振子的时域信号--ppt</a>，使用龙格库塔法开发的常微分方程求解器，对已知初始条件的运动方程求解数值解。意义：可用于非线性运动方程，有助于了解混沌的产生。 </p>
 			
-			<p> <a href="./source/time_domain.m" download> 代码0 </a> ：计算时域信号的例子，我们取其包络。</p>
-			<p> <a href="/source/ODE_time_domain_mapping_fft2.m" download> 代码1 </a> ：计算Coherent Coupling的时域信号及其傅里叶变换后的频域信号。</p>
-			<p> <a href="/source/ODE_time_domain_mapping_fft.m" download> 代码2 </a>：计算Dissipative Coupling的时域信号及其傅里叶变换后的频域信号。</p>
+			<p> <a href="./source/time_domain.m" download> matlab代码0 </a> ：计算时域信号的例子，我们取其包络。</p>
+			<p> <a href="/source/ODE_time_domain_mapping_fft2.m" download> matlab代码1 </a> ：计算Coherent Coupling的时域信号及其傅里叶变换后的频域信号。</p>
+			<p> <a href="/source/ODE_time_domain_mapping_fft.m" download> matlab代码2 </a>：计算Dissipative Coupling的时域信号及其傅里叶变换后的频域信号。</p>
 			
 			<p>4月1日，关于宽带阻隔器的论文提交给Physical Review Applied。 </p>
 			
 			<p>4月24日，通过传输系数的幅度、相位以及I/Q plot确认了负耗散的存在。以及初步说明了为什么耗散耦合会导致负耗散而经典的相干耦合的耗散一直大于零。再次确认零耗散条件是系统中的一个奇点（singularity）。 </p>
-			<p> <a href="./source/Meta_Material_Cal2.m" download> 代码3 </a> 该代码演示了理想的单独的RLC谐振子，在正耗散、零耗散、负耗散时的具体表现。具体请见毕业论文。 </p>
-			<p> <a href="./source/Meta_Material_Cal1.m" download> 代码4 </a> 该代码演示了理想的耗散（相干）耦合谐振子，在不同失谐条件下的具体表现。通过I/Q曲线经过全部四个象限可以推断，耗散耦合导致了负耗散，也就是负电阻的产生。
+			<p> <a href="./source/Meta_Material_Cal2.m" download> matlab代码3 </a> 该代码演示了理想的单独的RLC谐振子，在正耗散、零耗散、负耗散时的具体表现。具体请见毕业论文。 </p>
+			<p> <a href="./source/Meta_Material_Cal1.m" download> matlab代码4 </a> 该代码演示了理想的耗散（相干）耦合谐振子，在不同失谐条件下的具体表现。通过I/Q曲线经过全部四个象限可以推断，耗散耦合导致了负耗散，也就是负电阻的产生。
 			负电阻的存在使得系统局部违反了热力学第二定律，但是系统整体的电阻为正，因此该现象并不违反物理定律。具体请见毕业论文。</p>
-			<p> <a href="./source/Coupling_dispersion_Cal.m" download> 代码5 </a> 该代码演示了理论计算中，相干和耗散耦合的色散关系（特征值）以及特征向量的变化。 </p>
+			<p> <a href="./source/Coupling_dispersion_Cal.m" download> matlab代码5 </a> 该代码演示了理论计算中，相干和耗散耦合的色散关系（特征值）以及特征向量的变化。 </p>
 			
 			
 			<p>5月10日，完成论文第一版。 </p>
@@ -183,6 +183,9 @@ document.getElementById("Layer1").style.display = "none";
 			
 			
 			<p> 2月11日，首次在模拟软件中发现超材料中的level attraction现象。并提出使用可变电容器实现电压控制的level attraction现象。并提出使用可变电容器实现电压控制的level attraction。<a href="./source/2019/Group Meeting 20190211.pptx">PPT</a> </p>
+			<p><a href="./source/2019/CST_data_mapping.m">matlab代码:</a> CST模拟中导出的散射参量（S-parameter）画mapping。</p>
+			<p><a href="./source/2019/S21.txt">数据:</a> 举例，可以分析类似的样本数据。</p>
+			
 			<p> 2月25日，在实验中初步使用FR-4材料实现level attraction现象，同时实现了电压控制的Level attraction。<a href="./source/2019/Group Meeting 20190225.pptx">PPT</a> </p>
 			<p>3月4日，使用更优质的RO5880材料更新了实验数据，并对现有数据进行了分析总结。<a href="./source/2019/Group Meeting 20190304.pdf">PDF</a>   </p>
 			
@@ -216,7 +219,7 @@ document.getElementById("Layer1").style.display = "none";
 			
 			<p> 11月18日，首次完成耗散耦合的复平面分析（I/Q plot）以及确认了零耗散条件形成了系统内的对数奇点（<a href="https://mathworld.wolfram.com/LogarithmicSingularity.html ">logarithmic singularity</a>）。
 			<a href="./source/2019/Group Meeting 20191118.pdf">PDF</a></p>
-			<p> <a href="./source/2019/equivlent_Q.m" download>代码</a>：等效品质因数，如何区分External Q factor， loaded Q factor 和 unloaded Q factor。说明耗散耦合系统有潜力做到无限大的品质因数。 </p>
+			<p> <a href="./source/2019/equivlent_Q.m" download>matlab代码</a>：等效品质因数，如何区分External Q factor， loaded Q factor 和 unloaded Q factor。说明耗散耦合系统有潜力做到无限大的品质因数。 </p>
 			
 			<p><a href="./source/2019/PHYS1050 Tutorial1.pptx">春季学期 PHYS 1050 答疑讲解1 </a></p>
 			<p><a href="./source/2019/PHYS1050 Tutorial2.pptx">春季学期 PHYS 1050 答疑讲解2 </a></p>
@@ -293,21 +296,29 @@ document.getElementById("Layer1").style.display = "none";
 			<h3 class="heading underline"> 2017年工作回顾  </h3>
 			<p> 4月24日，<a href="./source/Presentation_Yutong_PHYS4250.pptx"> 锥状射束电脑断层扫描（Cone Beam CT）中的一阶瑞利散射的解析方法计算。 </a> </p>
 			
+			<p>完成课程 PHYS 3630  Electro - and Magnetostatic Theory 静电、静磁学 by  Dr. Mark Whitemore  （A+）</p>
+			<p>完成课程 PHYS 4510  Introduction to Nuclear Physics 原子核物理导论  by  Dr. Michael Gericke  （A）</p>
+			
+			<p>完成课程 PHYS 3640  Electro - and Magnetodynamics and special Relativity 电（磁）动力学以及狭义相对论 by  Dr. Andreas Shalchi  （A）</p>
+			<p>完成课程 PHYS 4560  Applied Nuclear Science 应用核科学 by  Dr. Stephen Pistorius  （A+）</p>
+			<p>完成课程 PHYS 4250  Computational Physics 计算物理 by  Dr. Jason Fiege  （A+）</p>
+			
+			
 			<h3 class="heading underline"> 新冠疫情（COVID-19）数据分析  </h3>  
 		     
 			<h4>重要资源</h4> 
 			<p> 新型冠状病毒（英文名称：<a href="https://en.wikipedia.org/wiki/Coronavirus_disease_2019">Coronavirus disease 2019 (COVID-19)</a> ）于2019年在武汉被发现并确认。
 			</p>
-			<p> Data provided / recorded by <a href="https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6">by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU).</a> 
-			The <a href="https://github.com/CSSEGISandData/COVID-19">  Github page  </a> can be used  to  extract the data in csv files.</p>
+			<p> 各国的新冠确诊数据由 <a href="https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6">by 约翰·霍普金斯大学（JHU）系统科学与工程中心（CSSE）。</a> 汇总整理。
+			可以使用他们的 <a href="https://github.com/CSSEGISandData/COVID-19">  Github项目  </a> 来进行数据分析。</p>
 			
 			<p class="text-center">
 			<iframe src="https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6"  width="800" height="600" scrolling="no" frameborder="0"></iframe>
 			</p>
 			
-			<p> An intriging video made by Minite Physics can be found <a href="https://youtu.be/54XLXg4fYsc"> here </a>. While the data plot of total confirmed cases v.s. new confirmed cases is given by <a href="https://aatishb.com/covidtrends/"> here </a>.</p>
-			<p> The "COVID-19: Outbreak update"  by <a href="https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html?topic=tilelink">Government of Canada </a> with data of confirmed case.</p>
-            <h3>Data Analysis on COVID-19 confirmed cases in Canada over time (Updated March 27 8:00 p.m.)</h3> 
+			<p> 由Minute Physics制作的 <a href="https://youtu.be/54XLXg4fYsc">启发性视频</a>使用了<a href="https://aatishb.com/covidtrends/"> 单位时间内新增病例数v.s.总确诊病例数的数据图</a>来说明病毒的传播速度。</p>
+			<p> 加拿大政府提供了<a href="https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html?topic=tilelink">“ COVID-19：Outbreak update” </a> 信息来播报官方确诊。</p>
+            <h3>随着时间的推移，加拿大对COVID-19确诊病例的数据分析（于3月27日下午8:00更新）</h3> 
 			
 			
 			<figure>
