@@ -1,53 +1,135 @@
 <!DOCTYPE html>
 <html lang="cn"> 
 <head>
-<title>Falcon Lake露营小记 | 赵宇彤的个人网站</title>
-  <meta charset="UTF-8">
-  <head> 
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> 
-    <script> 
-    $(function(){$("#includedheader").load("./htmls/header_cn.html");});
-    $(function(){$("#includedfooter").load("./htmls/footer_cn.html");});	 
-    </script> 
-  </head> 
+<title>Westbourne春季捞鱼 | 赵宇彤的个人网站</title>
 
-  <body> 
-     <div id="includedheader"></div>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content=" Yutong's persional site">
+	<meta name="author" content="Yutong Zhao">    
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <!----------------Global css------------------->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendors/revolution-slider/css/layers.css">
+    <link rel="stylesheet" href="vendors/revolution-slider/css/navigation.css">
+    <link rel="stylesheet" href="vendors/revolution-slider/css/settings.css">
+    <link rel="stylesheet" href="vendors/imagehover/css/imagehover.min.css">
+    <link rel="stylesheet" href="vendors/animate/animate.min.css">
+    <link rel="stylesheet" href="vendors/iCheck/css/all.css">
+    <link rel="stylesheet" href="vendors/sweetalert2/css/sweetalert2.min.css">
+    <!----------------custo css----------------->
+    <link rel="stylesheet" href="css/custom.css">
+	
+		  <link rel="stylesheet" href="./Map/jquery-jvectormap.css" type="text/css" media="screen"/>
+  <script src="./Map/jquery-1.8.2.js"></script>
+  <script src="https://jvectormap.com/js/jquery-jvectormap-2.0.1.min.js"></script>
+  <script src="./Map/jquery-jvectormap-ca-lcc.js"></script>
+  <script src="./Map/ca_poupulation.js"></script>
+	
+<script language="javascript">
+function showPic(sUrl){
+var x,y;
+x = event.clientX;
+y = event.clientY;
+document.getElementById("Layer1").style.left = x;
+document.getElementById("Layer1").style.top = y;
+document.getElementById("Layer1").innerHTML = "<img src=\"" + sUrl + "\">";
+document.getElementById("Layer1").style.display = "block";
+}
+function hiddenPic(){
+document.getElementById("Layer1").innerHTML = "";
+document.getElementById("Layer1").style.display = "none";
+}
+</script>
+
+
+</head> 
+<body>
+
+<div class="tp-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-7 col-md-6">
+                <a href="https://www.facebook.com/YutongZhao0"> <i class="fa fa-facebook" aria-hidden="true"></i></a>                
+                <a href="https://www.linkedin.com/in/yutong93"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+				<div id="Layer1" style="display:none;position:absolute;z-index:1;"></div>				
+				<a href="" onmouseout="hiddenPic();" onmousemove="showPic('./images/qrcode.jpg');"><i class="fa fa-wechat" aria-hidden="true"></i></a>
+				<a href="mailto:zhaoy327@myumanitoba.ca?subject = Feedback&body = Message"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+				<a href="mailto:zhaoyutong4321@gmail.com?subject = Feedback&body = Message"><i class="fa fa-google" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<header>
+    <div class="container">
+        <nav class="navbar navbar-default">
+            <div class="navbar-header">
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#myMegamenu"><span
+                        class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/3.png" class="img-responsive" alt="company-logo">
+                </a>
+            </div>
+			
+			
+            <div class="collapse navbar-collapse navbar-right" id="myMegamenu">
+                <ul class="nav navbar-nav">				
+				    <li class="list2"><a href="./index_cn.html" class="hvr-underline-from-center">赵宇彤</a></li>
+                    <li class="list2"><a href="./MyExp_cn.html" class="hvr-underline-from-center">经历</a></li>
+					<li class="list2"><a href="./Physics_cn.html" class="hvr-underline-from-center">物理</a></li>
+                    <li class="list2"><a href="./CanadaHeartbeat_cn.html" class="hvr-underline-from-center">心跳加拿大</a></li>
+					<li class="list2"><a href="./Realestate_cn.html" class="hvr-underline-from-center">不动产数据</a></li>					
+					<li class="list2"><a href="./Immigrate_cn.html" class="hvr-underline-from-center">移民加拿大</a></li>
+                    <li class="list2"><a href="./index.html" class="hvr-underline-from-center">English</a></li>					
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+
+
 
 
     <div class="row">
 	
         <div class="col-sm-6 col-sm-offset-3 m-t-50">
-		<p>欢迎来到赵宇彤的个人网站！</p>
-            <h2 class="heading underline">Falcon Lake露营小记</h2>
+		<p>欢迎来到赵宇彤的个人网站</p>
+            <h2 class="heading underline">Westbourne春季捞鱼</h2>
 			
-            <p class="text-center"> 2020年5月16-18日，Whiteshell 省级公园  ——  远足、游船
+            <p class="text-center"> 2020年4月19日，Westbourne 小镇  ——  远足、捞鱼
 			</p>
 			
             <h3 class="heading underline">   </h3>        
 			<p> </p>
-			<p>这次的疫情来袭，打乱了我今年的全部计划。本来温尼伯的冬天就十分漫长，每年的十一月开始到次年的三月初都是天然的季节性“隔离”。四月开始，冰消雪释，万物复苏。
-			因此计划在Riding mountain国家公园预定小木屋度过这个复活节长周末，踏青郊游。然而三月份曼省出现的大量确诊病例，导致了我们的预定被取消，也不得不居家隔离几个月。
-			好不容易迎来了第一阶段解封。 对于我这样一个闲不住的人，自然是要好好利用这个假期亲近一下自然。
-			<!-- 温尼伯湖作为世界上面积第十一大的湖泊，加拿大境内第三大湖（不算五大湖这类的界湖）。			 -->
+			<p> 每年开春的4月底到5月初这个时间段内，曼省西部的Westbourne小镇会迎来一大波洄游的鱼类到上游产卵繁殖。这些鱼从还在冰封的曼尼托巴湖各处逆流而上，寻找到出生时的那条小河，并在那里产卵繁殖。
+			Whitemud River 发源于Neepawa小镇，蜿蜒曲折，绕过我们这次的目的地Westbourne，最终汇入曼尼托巴湖。河流得名于英国皮草商人 亚历山大·亨利（Alexander Henry），意为“白色泥土河”。河里的常见鱼类有 northern pike（学名），中文是白斑狗鱼，当地人常用名为Jackfish。
 			</p>
 			
-			<p>虽然曼省开始逐渐解封，但是隔壁的安省，甚至人口更少的萨省的数据都不容乐观。因此只有曼省的省级公园开始了解封，国家公园依旧闭门谢客，即使是在写这篇游记的时候，依然保持着极为有限的开放。考量再三，我们选择了省内著名的 Falcon Lake 作为此行目的。</p>
+		
 			
-			<p>Falcon Lake 位于曼省东南的Whiteshell（白贝壳）省级公园以内，自温尼伯从1号公路向东152公里。该公园地处加拿大地盾（Canadian Shield）内，地盾形成于前寒武纪，由火成岩和变质岩构成，是北美洲板块最坚硬、最稳定的核心岩石。覆盖面积有四百五十万平方公里，达加拿大的一半。
-			Falcon Lake位于地盾西南部，有着最典型的地盾风光： 大部分地区一层薄薄的土壤覆盖在岩石顶部，大部分地区林木密布，生态多样，不少野生动物在此栖息。由于地址构成造成的排水不畅，这里的湖泊星罗棋布。其中就包括了此行要去的Falcon Lake， West Hawk Lake和Caddy lake。
-			1967年5月20日，Falcon Lake发生了著名的UFO目击事件，业余地质学家Stefan Michalak在Falcon Lake附近的荒野中勘探石英矿时看到了飞碟，并被其烧伤。
-		    五十多年后（2019年），这次UFO事件由于多项线索仍被评为是加拿大“记载最充分的UFO事件”，研究人员在2019年11月7日曼尼托巴大学首次公开了一些关键档案和证据。大部分曼大同学应该对此海报还有印象。该事件为Falcon Lake小镇平添了一番神秘主义色彩。</p>
-			
-	        <h3 class="heading underline"> Day 1： Falcon Lake </h3>
+	        <h3 class="heading underline"> 如何到达： </h3>
 			
 			<div class="row"  style="text-align: center">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d659854.6805178343!2d-96.78733615889666!3d49.756772166067975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x52ea73fbf91a2b11%3A0x2b2a1afac6b9ca64!2zV2lubmlwZWcsIOabvOWwvOaJmOW3tOecgQ!3m2!1d49.895136!2d-97.13837439999999!4m5!1s0x52bfce627125aae5%3A0x5f3769670adc0f78!2sFalcon%20Lake%20Lakeshore%20Campground%2C%20Division%20No.%201%2C%20Unorganized%2C%20MB%20R0E%202H0!3m2!1d49.692374699999995!2d-95.315857!5e0!3m2!1szh-CN!2sca!4v1594003789413!5m2!1szh-CN!2sca" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" title="Falcon Lake" align="center">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d328229.75724353845!2d-98.14423873393078!3d50.0058261528496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x52ea73fbf91a2b11%3A0x2b2a1afac6b9ca64!2z5pu85bC85omY5be055yB5rip5bC85Lyv!3m2!1d49.895136!2d-97.13837439999999!4m5!1s0x52e84cc7eac0ef09%3A0x8aa7b3e15395f40b!2sGovernment%20Allowance%20Rd%2C%20Westbourne%2C%20MB%20R0H%201P0!3m2!1d50.1354763!2d-98.5841269!5e0!3m2!1szh-CN!2sca!4v1594262573947!5m2!1szh-CN!2sca" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
 			<p>Your browser does not support iframes.</p>
 			</iframe>
 			</div>
 			
-			<p> 我们提前在曼省公园网站上预定了湖滨营地（Falcon Lake Lakeshore Campground），带上了帐篷、睡袋、气垫床等物品。到了营地，安营扎寨，做好两个晚上的准备。帐篷很大，足够五个人使用。</p>
+			<p>从温尼伯出发沿着一号公路向西，经过Portage La Prairie后驶入16号公路向北。再经过20公里左右到达小镇。</p>
 			
 			    <div class="row"  style="text-align: center">
                     <div class="col-xs-12">
@@ -275,7 +357,98 @@
            
 		</div>
     </div>       
+  
 
-	 <div id="includedfooter"></div>
-  </body> 
+
+  
+	
+	
+	<!------------Footer Caret Shape------------>
+<div class="shape section-top-50"></div>
+<!------------Footer Caret Shape end------------>
+<section class="footer_one">
+    <footer>
+        <div class="container">
+            <div class="row section-top-40">
+                <div class="col-md-3 col-sm-6 section-top-25">
+                    <h4 class="text-white">特别鸣谢</h4>
+                    <hr/>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <p class="footer_text_color">致我的家人，我的爱人以及那些在最困难的时候陪伴我的朋友们。</p>
+                        </div>
+
+                        <div class="col-xs-12">
+                            <span class="foot_icon">
+                            <a href="https://www.facebook.com/YutongZhao0"><i class="fa fa-facebook section-top-10 footer_social_icons" aria-hidden="true"></i></a>
+
+                            <a href="https://www.linkedin.com/in/yutong93"><i class="fa fa-linkedin section-top-10 footer_social_icons" aria-hidden="true"></i></a>
+										   
+							<div id="Layer1" style="display:none;position:absolute;z-index:1;"></div>
+                            <a href="" onmouseout="hiddenPic();" onmousemove="showPic('./images/qrcode.gif');"><i class="fa fa-wechat section-top-10 footer_social_icons" aria-hidden="true"></i></a>
+								
+							<a href="mailto:zhaoy327@myumanitoba.ca?subject = Feedback&body = Message"><i class="fa fa-envelope section-top-10 footer_social_icons" aria-hidden="true"></i></a>
+				
+				            <a href="mailto:zhaoyutong4321@gmail.com?subject = Feedback&body = Message"><i class="fa fa-google section-top-10 footer_social_icons" aria-hidden="true"></i></a>
+                        </span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-3  col-lg-3 col-sm-6 section-top-25">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h4 class="text-white">报错</h4><hr/>
+							<p class="footer_text_color">如果您有任何问题，请使用微信或者邮箱联系我。我会尽快答复。 </p>
+                            
+                        </div>
+                    
+
+                        </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 section-top-25">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h4 class="text-white">一家之言</h4><hr/>
+							<p class="footer_text_color"> 青山一道同云雨，明月何曾是两乡。</p>
+                            
+                        </div>
+
+                        <div class="col-xs-12">
+                            <div class="tweet">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</section>
+<!-------------------Footer section End------------------>
+<!------------------Copy rights------------------->
+<section class="copy-rights">
+    <div class="container ">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 section-top-15">
+                <p class="footer_text_color"><a href="./index.html">主页</a> &nbsp;
+                    <a href="./MyExp_cn.html">经历</a> &nbsp;
+					<a href="./Physics_cn.html">物理</a> &nbsp;
+					<a href="./CanadaHeartbeat_cn.html">旅行</a> &nbsp;
+					<a href="./Immigrate_cn.html">移民</a> &nbsp;
+                    <a href="mailto:zhaoy327@myumanitoba.ca?subject = Feedback&body = Message">联系我</a> &nbsp;
+					 <a href="./index.html">English</a> </p>
+            </div>
+            <div class="col-xs-12 col-sm-6 text-right section-top-15">
+
+                <p class="footer_text_color  ">Copyright &copy; 2020. All rights reserved. Yutong  Zhao</a></p>
+            </div>
+        </div>
+        <a href="#" id="return-to-top"><img src="images/backto.png" alt="image-missing"></a>
+    </div>
+</section>
+<!------------------Copy rights End------------------>
+
+</body>
 </html> 

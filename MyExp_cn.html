@@ -1,141 +1,81 @@
 <!DOCTYPE html>
 <html lang="cn"> 
 <head>
-<title>履历 | 赵宇彤的个人网站</title>
+<title>个人简历  | 赵宇彤的个人网站</title>
+  <meta charset="UTF-8">
+  <head> 
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> 
+    <script> 
+    $(function(){$("#includedheader").load("./htmls/header_cn.html");});
+    $(function(){$("#includedfooter").load("./htmls/footer_cn.html");});	 
+    </script> 
+  </head> 
 
-
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content=" Yutong's persional site">
-	<meta name="author" content="Yutong Zhao">    
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-  </script>
-    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-    <!----------------Global css------------------->
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="vendors/revolution-slider/css/layers.css">
-    <link rel="stylesheet" href="vendors/revolution-slider/css/navigation.css">
-    <link rel="stylesheet" href="vendors/revolution-slider/css/settings.css">
-    <link rel="stylesheet" href="vendors/imagehover/css/imagehover.min.css">
-    <link rel="stylesheet" href="vendors/animate/animate.min.css">
-    <link rel="stylesheet" href="vendors/iCheck/css/all.css">
-    <link rel="stylesheet" href="vendors/sweetalert2/css/sweetalert2.min.css">
-    <!----------------custo css----------------->
-    <link rel="stylesheet" href="css/custom.css">
-	
-<script language="javascript">
-function showPic(sUrl){
-var x,y;
-x = event.clientX;
-y = event.clientY;
-document.getElementById("Layer1").style.left = x;
-document.getElementById("Layer1").style.top = y;
-document.getElementById("Layer1").innerHTML = "<img src=\"" + sUrl + "\">";
-document.getElementById("Layer1").style.display = "block";
-}
-function hiddenPic(){
-document.getElementById("Layer1").innerHTML = "";
-document.getElementById("Layer1").style.display = "none";
-}
-</script>
-
-
-</head> 
-<body>
-
-<div class="tp-header">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-7 col-md-6">
-                <a href="https://www.facebook.com/YutongZhao0"> <i class="fa fa-facebook" aria-hidden="true"></i></a>                
-                <a href="https://www.linkedin.com/in/yutong93"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-				<div id="Layer1" style="display:none;position:absolute;z-index:1;"></div>				
-				<a href="" onmouseout="hiddenPic();" onmousemove="showPic('./images/qrcode.jpg');"><i class="fa fa-wechat" aria-hidden="true"></i></a>
-				<a href="mailto:zhaoy327@myumanitoba.ca?subject = Feedback&body = Message"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-				<a href="mailto:zhaoyutong4321@gmail.com?subject = Feedback&body = Message"><i class="fa fa-google" aria-hidden="true"></i></a>
-            </div>
-        </div>
-    </div>
-</div>
-
-<header>
-    <div class="container">
-        <nav class="navbar navbar-default">
-            <div class="navbar-header">
-                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#myMegamenu"><span
-                        class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-
-                </button>
-                <a class="navbar-brand" href="index.html">
-                    <img src="images/3.png" class="img-responsive" alt="company-logo">
-                </a>
-            </div>
-			
-			
-            <div class="collapse navbar-collapse navbar-right" id="myMegamenu">
-                <ul class="nav navbar-nav">				
-				    <li class="list2"><a href="./index_cn.html" class="hvr-underline-from-center">赵宇彤</a></li>
-                    <li class="list2"><a href="./MyExp_cn.html" class="hvr-underline-from-center">经历</a></li>
-					<li class="list2"><a href="./Physics_cn.html" class="hvr-underline-from-center">物理</a></li>
-                    <li class="list2"><a href="./CanadaHeartbeat_cn.html" class="hvr-underline-from-center">心跳加拿大</a></li>
-					<li class="list2"><a href="./Realestate_cn.html" class="hvr-underline-from-center">不动产数据</a></li>					
-					<li class="list2"><a href="./Immigrate_cn.html" class="hvr-underline-from-center">移民加拿大</a></li>
-                    <li class="list2"><a href="./index.html" class="hvr-underline-from-center">English</a></li>					
-                </ul>
-            </div>
-        </nav>
-    </div>
-</header>
+  <body> 
+     <div id="includedheader"></div>
 
  
     <div class="row">
         <div class="col-sm-6 col-sm-offset-3 m-t-50">
 		<p>欢迎来到赵宇彤的个人网站</p>
-            <h2 class="heading underline">Website Curriculum vitae</h2>
-            <p class="text-center"> I am Yutong Zhao, a physics master student currently study in Univeristy of Manitoba in Canada. You can find my resume <a href="https://zhaoyutong43210.github.io/YutongCV">here.</a> </p>
+			<h2 class="heading underline">一份并不简短的个人简历 </h2>
 			
-			<p class="text-center"><strong>A little history:</strong> My hometown Langfang is a satellite city of Beijing which is located approximately midway between Beijing and Tianjin and its population is 4.74 million.
-			                        The name of Langfang could be traced back to Song dynasty with more than one thousand years history (995 - 1000 A.D., named after the Lv duan, a famous Prime Minister of Song dynasty when he is the Undersecretary of finance, 
-									meaning the "The House of Undersecretary"), the Guangyang district where my home is located has a even longer history which can be traced back to the year of  222 B.C. The Qin dynasty first set the Guangyang county there.
-									</p>
-  			                       <p> <b>A little geology:</b>  It is also known as the "Beijing-Tianjin Corridor" which has a 20 min long by high speed train to both Beijing and Tianjin.  The newly built Beijing Daxing International Airport 
-								    is partially located in Langfang. My mother is a assosiate professor of North China Institute of Aerospace Engineering and My father is a senior instructor of Langfang Technician School.</p>
-            <h3 class="heading underline"> Brief Education symmary </h3>        
-			<h5> Langfang No.1 experimental elementary school, Langfang, Hebei province, China </h5>
-			<p> Sept 2000 - June 2006 </p>
+			<p> 你好，我叫赵宇彤，是加拿大温尼伯癌症治疗中心（<a href="https://www.cancercare.mb.ca/home/">CancerCare Manitoba</a>）的一名副研究员。 目前我正在研究针对锥束CT（X光图像）的图像增强/去噪。这涉及到蒙卡方法、大数据分析和深度学习等。 最终这项研究工作会惠及每一个使用图像引导放射治疗的病人。
+			</p>
 			
-			<h5> Langfang No.4 junior high school, Langfang, Hebei province, China  </h5>
-			<p> Sept 2006 - June 2009 </p>
+			<p> 我来自河北省廊坊市，在人生的前19年完成了小学到高中的教育。本科和硕士研究生毕业均毕业于加拿大曼尼托巴大学（University of Manitoba），同时我是兰州大学的理学学士，毕业于核科学与技术学院。
+			 </p>
+			 
+			 <p> 我生活中的兴趣广泛。比如：公路旅行、野营徒步、划船等等。还有使用我学到的编程技能来解决生活中的实际问题。我还要感谢之前经历过的种种不公平， 这些经历教会了我公平正义的可贵。综合之前的种种经历，我想感谢这个时代，海阔凭鱼跃，天高任鸟飞。</p>
+			 
+			 <p>  你可以在这里找到我的<a href="https://zhaoyutong43210.github.io/YutongCV">个人简历</a>。 </p>
 			
-			<h5> Langfang Sanhe No.1 Senior high school, Langfang, Hebei province, China  </h5>
-			<p> Sept 2009 - June 2012 </p>
+			<p><strong>一段有趣的历史：</strong> 我的家乡廊坊是北京的一个卫星城，位于北京和天津之间，人口为474万。 廊坊的名称可以追溯到具有一千多年历史的宋朝 （公元995年-1000年，宋代著名宰相吕端的家乡在如今的安次县，当时他官任户部侍郎，并在此建设宅院。 因其房屋高大，远近闻名。因此得名“侍郎房”），后在以前多年的变革中演变为“廊坊”。明代思想家李贽评价： “诸葛一生唯谨慎，吕端大事不糊涂。”。我所居住的广阳区历史则更加悠久，早在秦始皇二十五年（公元前222年）在此设立广阳郡（延承燕国广阳郡）。此名称沿革两千多年不变。
+			</p>
+  			<p> <strong>一段有趣的地理: </strong>  我的家乡在天津和北京之间，素有“京津走廊”之称。 如今乘坐高铁仅需20分钟即可到达这两个城市中的任意一个。 新竣工的北京大兴国际机场则有部分位于廊坊。</p>
 			
-			<p> Sept 2009 - June 2012 </p>
+            <h3 class="heading underline"> 教育经历 </h3>        
+			<h5> <b>河北省廊坊市第一实验小学</b>（2006年以前：廊坊市师范附属小学） </h5>
+			<p>  2000年 9 月 - 2006年 6 月 </p>
 			
-			<h5> Lanzhou University, Lanzhou, Gansu province, China  </h5>
-			<p> Sept 2012 - June 2014, School of Nuclear Science and technology, Nuclear science and technology talent training base (direction of nuclear physics) </p>
-			<p> Sept 2014 - June 2018, 2+2 program with Univeristy of Manitoba </p>
-			<p> June 2018,  Bachelor of Science, Nuclear Physics </p>
+			<h5> <b>河北省廊坊市第四中学</b>  </h5>
+			<p>  2006年 9 月 - 2009年 6 月 </p>
 			
-			<h5> University of Manitoba </h5>
-			<p> Jan 2015 - June 2018, Bachelor of Science, Physics</p>
-			<p> Sept 2018 - Auguest 2020, Master of Science, Physics </p>
+			<h5> <b>河北省廊坊市三河市第一中学</b>  </h5>
+			<p>  2009年 9 月 - 2012年 6 月 </p>
 			
-			<h3 class="heading underline"> Empolyment History </h3>
-			<h5> Research Assistant, University of Manitoba </h5>
+			<p> 全国中学生物理竞赛（2011年）， 全国三等奖 </p>
+			<p> 全国中学生生物学竞赛（2011年），廊坊市二等奖</p>
+			
+			<h5> <b>兰州大学</b>  </h5>
+			<p> 2012年 9 月 - 2014年 6 月， 核科学与技术学院，原子核物理基地班。 </p>
+			<p> 2015年 1 月 - 2018年 5 月，  与曼尼托巴大学2+2联合培养项目。 </p>
+			<p> 2018年6月，<b>理学学士学位，应用物理学（原子核物理方向）</b>。 </p>
+			
+			<h5> <b>曼尼托巴大学</b> </h5>
+			
+			<p> 本科 （2015年 1 月 - 2018年5月） </p>
+			<p> <b>理学学士，物理学（一等荣誉学位）</b></p>
+			<p> ELC学术成就奖（2015年），部门第一名。</p>
+			<p> 科学院夏季研究奖学金（2016年）</p>
+			<p> Sunil K.Sen奖学金（2018年），物理系四年级第一名。 </p>
+			
+			<p> <b>研究生 （2018年 9 月 - 2020年8月）</b></p>	
+			
+			<p> 国际研究生入学奖学金 （2018年）</p>			
+			<p> 曼尼托巴大学研究生全额奖学金（2019年） </p>
+			<p></p>
+			<p></p>
+			
+			<h3 class="heading underline"> 工作经历 </h3>
+			<h5> 副研究员， 曼尼托巴省癌症治疗中心（CCMB） </h5>
+			
+			<h5> 研究助理， 曼尼托巴大学 </h5>
 			<p> Perform experiment. </p>
-			<h5> Teaching Assistant, University of Manitoba </h5>
+			<h5> 教学助理， 曼尼托巴大学 </h5>
 			<p> Perform experiment. </p>
 			
-     		<h4 class="heading underline"> Publications </h4>
+     		<h4 class="heading underline"> 学术出版 </h4>
 			<h5 class="heading underline"> First Authored </h5>
 			<p> [1]. Paper to be submitted. </p>
 			<h5 class="heading underline"> Coauthored </h5>
@@ -154,34 +94,34 @@ document.getElementById("Layer1").style.display = "none";
 	
     <div class="row">
         <div class="col-sm-6 col-sm-offset-3 m-t-50">
-            <h2 class="heading underline">Some useful resources</h2>
-			<h4 class="heading underline">Education as Teaching Assistant</h4>
+            <h2 class="heading underline">相关资源</h2>
+			<h4 class="heading underline">教学助理</h4>
 			
-            <p class="text-center">  As the Lab reports of PHYS 1050 and PHYS 1030 are donwloaded with auto-generated names. A batch file to rename the lab reports to original names would make life easier. 
+            <p>  As the Lab reports of PHYS 1050 and PHYS 1030 are donwloaded with auto-generated names. A batch file to rename the lab reports to original names would make life easier. 
 			Even though it may only save you a few minites each time, this can free you time from boring and repeating process. And you can focus on more meaningful tasks. Please find the MATLAB code: 
 			<a href="./PHYS1050_file_compile.m" download="PHYS1050_file_compile.m">PDF Files Batch in MATLAB</a> </p>
 			
-			<p class="text-center">  PDF version of Lab reports can be readed use text.  To automatically do the word count for abstract and spell check. You can use the MATLAB code here：
+			<p>  PDF version of Lab reports can be readed use text.  To automatically do the word count for abstract and spell check. You can use the MATLAB code here：
 			<a href="./PHYS1030_file_read.m" download="PHYS1030_file_read.m"> PDF Files read and word check in MATLAB</a> </p>
 			
-	        <p class="text-center">  Sometime the Attendence is very important and a good record of the class in case of some disagreement bwtween you and your students. In order to make the addentence easier, 
+	        <p>  Sometime the Attendence is very important and a good record of the class in case of some disagreement bwtween you and your students. In order to make the addentence easier, 
 			a printable version can be find as following:
 			<a href="./Attendence.docx" download="Attendence.docx"> Attendence sheet for PHYS 1030/1050 word version</a> </p>
-			<h4 class="heading underline"> Data Analysis </h4>
+			<h4 class="heading underline"> 数据分析 </h4>
 			<p> Eigenvalues and eigenvectors calculation. The eigenvalues are important and</p>
-			<p> Time domain ODE calculation. </p>
+			<p> 常微分方程组的求解： 耦合系统的时域信号分析。 </p>
 			
-			<h4 class="heading underline"> Instrument Control </h4>		
-            <p> For the communication using GPIB cables, you need to install a driver <a href="https://www.ni.com/en-th/support/downloads/drivers/download.ni-488-2.html#329025	">NI-488.2</a>. </p>	
-		    <p> Communication use USB-serial ports (step motors),  you need the <a href="https://www.velmex.com/Technical/Software.html">COSMOS software</a>.</p>
-			<p> Vector Network Analyer</p>
-			<p> PNA 5230C  <a href="https://www.keysight.com/en/pd-1350041-pn-N5230C/pna-l-microwave-network-analyzer?pm=PL&nid=-32432.761696&cc=CA&lc=eng">offical documentations</a></p>
-			<p> ENA 5080 <a href="https://www.keysight.com/main/techSupport.jspx?cc=CA&lc=eng&nid=-32496.1150378&pid=x202208&pageMode=PL">offical documentations</a></p>
+			<h4 class="heading underline"> 仪器控制 </h4>		
+            <p> 使用GPIB线缆的通信， 你需要安装美国国家仪器公司的<a href="https://www.ni.com/en-th/support/downloads/drivers/download.ni-488-2.html#329025	">NI-488.2</a>驱动软件。 </p>	
+		    <p> 使用USB串行口的步进电机（USB-serial ports step motors），你需要VELMEX电机公司提供的 <a href="https://www.velmex.com/Technical/Software.html">COSMOS 软件</a>控制马达的移动。</p>
+			<p> 矢量网络分析仪（Vector Network Analyer）</p>
+			<p> 矢量网络分析仪 PNA 5230C  <a href="https://www.keysight.com/en/pd-1350041-pn-N5230C/pna-l-microwave-network-analyzer?pm=PL&nid=-32432.761696&cc=CA&lc=eng">官方文档</a></p>
+			<p> 矢量网络分析仪 ENA 5080 <a href="https://www.keysight.com/main/techSupport.jspx?cc=CA&lc=eng&nid=-32496.1150378&pid=x202208&pageMode=PL">官方文档</a></p>
 			
-			<p> Spectrum Analyer. </p>
-			<p> Microwave Signal Generator. </p>
+			<p> 频谱分析仪 （Spectrum Analyer）. </p>
+			<p> 微波信号发生器（Microwave Signal Generator）. </p>
 			
-			<h4 class="heading underline"> Others </h4>
+			<h4 class="heading underline"> 其他 </h4>
 			
 			
         </div>
@@ -189,93 +129,7 @@ document.getElementById("Layer1").style.display = "none";
 	
 	
 	
-	
-	<!------------Footer Caret Shape------------>
-<div class="shape section-top-50"></div>
-<!------------Footer Caret Shape end------------>
-<section class="footer_one">
-    <footer>
-        <div class="container">
-            <div class="row section-top-40">
-                <div class="col-md-3 col-sm-6 section-top-25">
-                    <h4 class="text-white">特别鸣谢</h4>
-                    <hr/>
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <p class="footer_text_color">致我的家人，我的爱人以及那些在最困难的时候陪伴我的朋友们。</p>
-                        </div>
-
-                        <div class="col-xs-12">
-                            <span class="foot_icon">
-                            <a href="https://www.facebook.com/YutongZhao0"><i class="fa fa-facebook section-top-10 footer_social_icons" aria-hidden="true"></i></a>
-
-                            <a href="https://www.linkedin.com/in/yutong93"><i class="fa fa-linkedin section-top-10 footer_social_icons" aria-hidden="true"></i></a>
-										   
-							<div id="Layer1" style="display:none;position:absolute;z-index:1;"></div>
-                            <a href="" onmouseout="hiddenPic();" onmousemove="showPic('./images/qrcode.gif');"><i class="fa fa-wechat section-top-10 footer_social_icons" aria-hidden="true"></i></a>
-								
-							<a href="mailto:zhaoy327@myumanitoba.ca?subject = Feedback&body = Message"><i class="fa fa-envelope section-top-10 footer_social_icons" aria-hidden="true"></i></a>
-				
-				            <a href="mailto:zhaoyutong4321@gmail.com?subject = Feedback&body = Message"><i class="fa fa-google section-top-10 footer_social_icons" aria-hidden="true"></i></a>
-                        </span>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="col-md-3  col-lg-3 col-sm-6 section-top-25">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <h4 class="text-white">报错</h4><hr/>
-							<p class="footer_text_color">如果您有任何问题，请使用微信或者邮箱联系我。我会尽快答复。 </p>
-                            
-                        </div>
-                    
-
-                        </div>
-                </div>
-
-                <div class="col-md-3 col-sm-6 section-top-25">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <h4 class="text-white">一家之言</h4><hr/>
-							<p class="footer_text_color"> 青山一道同云雨，明月何曾是两乡。</p>
-                            
-                        </div>
-
-                        <div class="col-xs-12">
-                            <div class="tweet">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-</section>
-<!-------------------Footer section End------------------>
-<!------------------Copy rights------------------->
-<section class="copy-rights">
-    <div class="container ">
-        <div class="row">
-            <div class="col-xs-12 col-sm-6 section-top-15">
-                <p class="footer_text_color"><a href="./index.html">主页</a> &nbsp;
-                    <a href="./MyExp_cn.html">经历</a> &nbsp;
-					<a href="./Physics_cn.html">物理</a> &nbsp;
-					<a href="./CanadaHeartbeat_cn.html">旅行</a> &nbsp;
-					<a href="./Immigrate_cn.html">移民</a> &nbsp;
-                    <a href="mailto:zhaoy327@myumanitoba.ca?subject = Feedback&body = Message">联系我</a> &nbsp;
-					 <a href="./index.html">English</a> </p>
-            </div>
-            <div class="col-xs-12 col-sm-6 text-right section-top-15">
-
-                <p class="footer_text_color  ">Copyright &copy; 2020. All rights reserved. Yutong  Zhao</a></p>
-            </div>
-        </div>
-        <a href="#" id="return-to-top"><img src="images/backto.png" alt="image-missing"></a>
-    </div>
-</section>
-<!------------------Copy rights End------------------>
-
-</body>
+	 <div id="includedfooter"></div>
+  </body> 
 </html> 
+

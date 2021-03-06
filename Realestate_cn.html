@@ -2,105 +2,23 @@
 <html lang="cn"> 
 <head>
 <title>加拿大不动产大数据 | 赵宇彤的个人网站</title>
-
-
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content=" Yutong's persional site">
-	<meta name="author" content="Yutong Zhao">    
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-  </script>
-    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-    <!----------------Global css------------------->
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="vendors/revolution-slider/css/layers.css">
-    <link rel="stylesheet" href="vendors/revolution-slider/css/navigation.css">
-    <link rel="stylesheet" href="vendors/revolution-slider/css/settings.css">
-    <link rel="stylesheet" href="vendors/imagehover/css/imagehover.min.css">
-    <link rel="stylesheet" href="vendors/animate/animate.min.css">
-    <link rel="stylesheet" href="vendors/iCheck/css/all.css">
-    <link rel="stylesheet" href="vendors/sweetalert2/css/sweetalert2.min.css">
-    <!----------------custo css----------------->
-    <link rel="stylesheet" href="css/custom.css">
-	
-		  <link rel="stylesheet" href="./Map/jquery-jvectormap.css" type="text/css" media="screen"/>
+  <meta charset="UTF-8">
+  <head> 
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> 
+    <script> 
+    $(function(){$("#includedheader").load("./htmls/header_cn.html");});
+    $(function(){$("#includedfooter").load("./htmls/footer_cn.html");});	 
+    </script> 
+  </head> 
+  
+<link rel="stylesheet" href="./Map/jquery-jvectormap.css" type="text/css" media="screen"/>
   <script src="./Map/jquery-1.8.2.js"></script>
   <script src="https://jvectormap.com/js/jquery-jvectormap-2.0.1.min.js"></script>
   <script src="./Map/jquery-jvectormap-ca-lcc.js"></script>
   <script src="./Map/ca_poupulation.js"></script>
-	
-<script language="javascript">
-function showPic(sUrl){
-var x,y;
-x = event.clientX;
-y = event.clientY;
-document.getElementById("Layer1").style.left = x;
-document.getElementById("Layer1").style.top = y;
-document.getElementById("Layer1").innerHTML = "<img src=\"" + sUrl + "\">";
-document.getElementById("Layer1").style.display = "block";
-}
-function hiddenPic(){
-document.getElementById("Layer1").innerHTML = "";
-document.getElementById("Layer1").style.display = "none";
-}
-</script>
 
-
-</head> 
-<body>
-
-<div class="tp-header">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-7 col-md-6">
-                <a href="https://www.facebook.com/YutongZhao0"> <i class="fa fa-facebook" aria-hidden="true"></i></a>                
-                <a href="https://www.linkedin.com/in/yutong93"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-				<div id="Layer1" style="display:none;position:absolute;z-index:1;"></div>				
-				<a href="" onmouseout="hiddenPic();" onmousemove="showPic('./images/qrcode.jpg');"><i class="fa fa-wechat" aria-hidden="true"></i></a>
-				<a href="mailto:zhaoy327@myumanitoba.ca?subject = Feedback&body = Message"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-				<a href="mailto:zhaoyutong4321@gmail.com?subject = Feedback&body = Message"><i class="fa fa-google" aria-hidden="true"></i></a>
-            </div>
-        </div>
-    </div>
-</div>
-
-<header>
-    <div class="container">
-        <nav class="navbar navbar-default">
-            <div class="navbar-header">
-                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#myMegamenu"><span
-                        class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-
-                </button>
-                <a class="navbar-brand" href="index.html">
-                    <img src="images/3.png" class="img-responsive" alt="company-logo">
-                </a>
-            </div>
-			
-			
-            <div class="collapse navbar-collapse navbar-right" id="myMegamenu">
-                <ul class="nav navbar-nav">				
-				    <li class="list2"><a href="./index_cn.html" class="hvr-underline-from-center">赵宇彤</a></li>
-                    <li class="list2"><a href="./MyExp_cn.html" class="hvr-underline-from-center">经历</a></li>
-					<li class="list2"><a href="./Physics_cn.html" class="hvr-underline-from-center">物理</a></li>
-                    <li class="list2"><a href="./CanadaHeartbeat_cn.html" class="hvr-underline-from-center">心跳加拿大</a></li>
-					<li class="list2"><a href="./Realestate_cn.html" class="hvr-underline-from-center">不动产数据</a></li>					
-					<li class="list2"><a href="./Immigrate_cn.html" class="hvr-underline-from-center">移民加拿大</a></li>
-                    <li class="list2"><a href="./index.html" class="hvr-underline-from-center">English</a></li>					
-                </ul>
-            </div>
-        </nav>
-    </div>
-</header>
-
+  <body> 
+     <div id="includedheader"></div>
 
     <div class="row">
 	
@@ -108,9 +26,9 @@ document.getElementById("Layer1").style.display = "none";
 		<p>欢迎来到赵宇彤的个人网站! </p>
             <h2 class="heading underline">加拿大房产数据分析项目</h2>
 			
-            <p class="text-center"> 本项目赵宇彤根据个人兴趣开发。</p>
+            <p> 本项目赵宇彤根据个人兴趣开发。</p>
 			
-            <h3 class="heading underline">关于本项目 The purpuse of this project  </h3>        
+            <h3 class="heading underline">关于本项目 </h3>        
 			<p> 探索加拿大的房产大数据，打破信息不对称，促进房产交易的公平进行。本项目完全免费。 </p>
 	
 			
@@ -186,93 +104,7 @@ document.getElementById("Layer1").style.display = "none";
   
 	
 	
-	<!------------Footer Caret Shape------------>
-<div class="shape section-top-50"></div>
-<!------------Footer Caret Shape end------------>
-<section class="footer_one">
-    <footer>
-        <div class="container">
-            <div class="row section-top-40">
-                <div class="col-md-3 col-sm-6 section-top-25">
-                    <h4 class="text-white">特别鸣谢</h4>
-                    <hr/>
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <p class="footer_text_color">致我的家人，我的爱人以及那些在最困难的时候陪伴我的朋友们。</p>
-                        </div>
-
-                        <div class="col-xs-12">
-                            <span class="foot_icon">
-                            <a href="https://www.facebook.com/YutongZhao0"><i class="fa fa-facebook section-top-10 footer_social_icons" aria-hidden="true"></i></a>
-
-                            <a href="https://www.linkedin.com/in/yutong93"><i class="fa fa-linkedin section-top-10 footer_social_icons" aria-hidden="true"></i></a>
-										   
-							<div id="Layer1" style="display:none;position:absolute;z-index:1;"></div>
-                            <a href="" onmouseout="hiddenPic();" onmousemove="showPic('./images/qrcode.gif');"><i class="fa fa-wechat section-top-10 footer_social_icons" aria-hidden="true"></i></a>
-								
-							<a href="mailto:zhaoy327@myumanitoba.ca?subject = Feedback&body = Message"><i class="fa fa-envelope section-top-10 footer_social_icons" aria-hidden="true"></i></a>
-				
-				            <a href="mailto:zhaoyutong4321@gmail.com?subject = Feedback&body = Message"><i class="fa fa-google section-top-10 footer_social_icons" aria-hidden="true"></i></a>
-                        </span>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="col-md-3  col-lg-3 col-sm-6 section-top-25">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <h4 class="text-white">报错</h4><hr/>
-							<p class="footer_text_color">如果您有任何问题，请使用微信或者邮箱联系我。我会尽快答复。 </p>
-                            
-                        </div>
-                    
-
-                        </div>
-                </div>
-
-                <div class="col-md-3 col-sm-6 section-top-25">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <h4 class="text-white">一家之言</h4><hr/>
-							<p class="footer_text_color"> 青山一道同云雨，明月何曾是两乡。</p>
-                            
-                        </div>
-
-                        <div class="col-xs-12">
-                            <div class="tweet">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-</section>
-<!-------------------Footer section End------------------>
-<!------------------Copy rights------------------->
-<section class="copy-rights">
-    <div class="container ">
-        <div class="row">
-            <div class="col-xs-12 col-sm-6 section-top-15">
-                <p class="footer_text_color"><a href="./index.html">主页</a> &nbsp;
-                    <a href="./MyExp_cn.html">经历</a> &nbsp;
-					<a href="./Physics_cn.html">物理</a> &nbsp;
-					<a href="./CanadaHeartbeat_cn.html">旅行</a> &nbsp;
-					<a href="./Immigrate_cn.html">移民</a> &nbsp;
-                    <a href="mailto:zhaoy327@myumanitoba.ca?subject = Feedback&body = Message">联系我</a> &nbsp;
-					 <a href="./index.html">English</a> </p>
-            </div>
-            <div class="col-xs-12 col-sm-6 text-right section-top-15">
-
-                <p class="footer_text_color  ">Copyright &copy; 2020. All rights reserved. Yutong  Zhao</a></p>
-            </div>
-        </div>
-        <a href="#" id="return-to-top"><img src="images/backto.png" alt="image-missing"></a>
-    </div>
-</section>
-<!------------------Copy rights End------------------>
-
-</body>
+	 <div id="includedfooter"></div>
+  </body> 
 </html> 
 

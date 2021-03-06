@@ -1,0 +1,86 @@
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content=" Yutong's persional site">
+	<meta name="author" content="Yutong Zhao">    
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">  </script>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <!----------------Global css------------------->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendors/revolution-slider/css/layers.css">
+    <link rel="stylesheet" href="vendors/revolution-slider/css/navigation.css">
+    <link rel="stylesheet" href="vendors/revolution-slider/css/settings.css">
+    <link rel="stylesheet" href="vendors/imagehover/css/imagehover.min.css">
+    <link rel="stylesheet" href="vendors/animate/animate.min.css">
+    <link rel="stylesheet" href="vendors/iCheck/css/all.css">
+    <link rel="stylesheet" href="vendors/sweetalert2/css/sweetalert2.min.css">
+    <!----------------custo css----------------->
+    <link rel="stylesheet" href="css/custom.css">
+	
+<script language="javascript">
+function showPic(sUrl){
+var x,y;
+x = event.clientX;
+y = event.clientY;
+document.getElementById("Layer1").style.left = x;
+document.getElementById("Layer1").style.top = y;
+document.getElementById("Layer1").innerHTML = "<img src=\"" + sUrl + "\">";
+document.getElementById("Layer1").style.display = "block";
+}
+function hiddenPic(){
+document.getElementById("Layer1").innerHTML = "";
+document.getElementById("Layer1").style.display = "none";
+}
+</script>
+</head> 
+<body>
+
+<div class="tp-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-7 col-md-6">
+                <a href="https://www.facebook.com/YutongZhao0"> <i class="fa fa-facebook" aria-hidden="true"></i></a>                
+                <a href="https://www.linkedin.com/in/yutong93"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+				<div id="Layer1" style="display:none;position:absolute;z-index:1;"></div>				
+				<a href="" onmouseout="hiddenPic();" onmousemove="showPic('./images/qrcode.jpg');"><i class="fa fa-wechat" aria-hidden="true"></i></a>
+				<a href="mailto:zhaoy327@myumanitoba.ca?subject = Feedback&body = Message"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+				<a href="mailto:zhaoyutong4321@gmail.com?subject = Feedback&body = Message"><i class="fa fa-google" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<header>
+    <div class="container">
+        <nav class="navbar navbar-default">
+            <div class="navbar-header">
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#myMegamenu"><span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/3.png" class="img-responsive" alt="company-logo">
+                </a>
+            </div>
+			
+			
+            <div class="collapse navbar-collapse navbar-right" id="myMegamenu">
+                <ul class="nav navbar-nav">				
+				    <li class="list2"><a href="./index_cn.html" class="hvr-underline-from-center">赵宇彤</a></li>
+                    <li class="list2"><a href="./MyExp_cn.html" class="hvr-underline-from-center">简历</a></li>
+					<li class="list2"><a href="./Physics_cn.html" class="hvr-underline-from-center">物理</a></li>
+                    <li class="list2"><a href="./CanadaHeartbeat_cn.html" class="hvr-underline-from-center">我的旅行</a></li>
+					<li class="list2"><a href="./Realestate_cn.html" class="hvr-underline-from-center">不动产数据</a></li>					
+					<li class="list2"><a href="./Immigrate_cn.html" class="hvr-underline-from-center">枫叶卡之路</a></li>
+                    <li class="list2"><a href="./index.html" class="hvr-underline-from-center">English</a></li>					
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
