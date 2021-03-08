@@ -40,98 +40,98 @@
 			
 			<h3 class="heading underline"> 2020年工作进展 </h3>
 			
-			<p> 1月13日，<a href="./source/2019/Group velocity.pdf">首次在科研组内发现了直接测量群延迟的VNA测量方法。</a> 同时明确了微波电磁场的测量相位和展开相位（unwrapped Phase）的关系。首次将快光和慢光的概念引入CMP领域，并为将来在概念上明确负阻尼和理论描述铺平了道路。</p> 
+			<p> 1月13日，<a href="./source/Group velocity.pdf">首次发现了直接测量群延迟的VNA测量方法。</a> 同时明确了微波电磁场的测量相位和展开相位（unwrapped Phase）的关系。首次将快光和慢光的概念引入CMP领域，并为将来概念上明确负阻尼铺平了道路。</p> 
 			
-			<p>1月27日，<a href="./source/2020/Lagrangian Hygens.pdf">推导出惠更斯摆的拉格朗日力学形式。</a> 为之后的耗散耦合导致同步的现象提供了理论支持。</p> 
+			<p>1月27日，<a href="./source/Lagrangian Hygens.pdf">推导出惠更斯摆的拉格朗日力学形式。</a> 为之后的耗散耦合导致同步的现象提供了理论支持。</p> 
 			
-			<p>1月31日，尝试使用截断式十字谐振腔与开口谐振环耦合，产生level attraction现象，得到初步结果。<a href="./source/2020/Cavity-n2.cst" download>CST 文件</a> 初步结果充满希望，可以参考之前的文章来指导接下来的工作。 </p>
+			<p>1月31日，尝试使用截断式十字谐振腔与开口谐振环耦合，产生level attraction现象，得到初步结果。<a href="./source/Cavity-n2.cst" download>CST 文件</a> 初步结果充满希望，可以参考之前的文章来指导接下来的工作。 </p>
 			
-			<p> 2月7日，硕士论文大纲。<a href="./source/2020/Group_Meeting 20200207.pdf" download></a> </p>
+			<p> 2月7日，硕士论文大纲。 </p>
 			
 			
 			
-			<p>3月26日，提出<a href="./source/2020/Time-Domain-GroupMeeting.pdf">用数值方法求解耦合谐振子的时域信号--ppt</a>，使用龙格-库塔法开发的常微分方程求解器，对已知初始条件的运动方程求解数值解。 意义：为耗散耦合的时域信号提供了重要参考。还可用于非线性运动方程，有助于了解混沌的产生。 </p>
+			<p>3月26日，提出<a href="./source/Time-Domain-GroupMeeting.pptx">用数值方法求解耦合谐振子的时域信号--ppt</a>，使用龙格库塔法开发的常微分方程求解器，对已知初始条件的运动方程求解数值解。意义：可用于非线性运动方程，有助于了解混沌的产生。 </p>
 			
-			<p> <a href="./source/2020/timedomain.m" download> matlab代码0 </a> ：计算时域信号的例子，我们取其包络。</p>
-			<p> <a href="./source/2020/ODEmappingfft2.m" download> matlab代码1 </a> ：计算Coherent Coupling的时域信号及其傅里叶变换后的频域信号。</p>
-			<p> <a href="./source/2020/ODEmappingfft.m" download> matlab代码2 </a>：计算Dissipative Coupling的时域信号及其傅里叶变换后的频域信号。</p>
+			<p> <a href="./source/timedomain.m" download> matlab代码0 </a> ：计算时域信号的例子，我们取其包络。</p>
+			<p> <a href="/source/ODE_time_domain_mapping_fft2.m" download> matlab代码1 </a> ：计算Coherent Coupling的时域信号及其傅里叶变换后的频域信号。</p>
+			<p> <a href="/source/ODE_time_domain_mapping_fft.m" download> matlab代码2 </a>：计算Dissipative Coupling的时域信号及其傅里叶变换后的频域信号。</p>
 			
 			<p>4月1日，关于宽带阻隔器的论文提交给Physical Review Applied。 </p>
 			
 			<p>4月24日，通过传输系数的幅度、相位以及I/Q plot确认了负耗散的存在。以及初步说明了为什么耗散耦合会导致负耗散而经典的相干耦合的耗散一直大于零。再次确认零耗散条件是系统中的一个奇点（singularity）。 </p>
-			<p> <a href="./source/2020/Meta_Material_Cal2.m" download> matlab代码3 </a> 该代码演示了理想的单独的RLC谐振子，在正耗散、零耗散、负耗散时的具体表现。具体请见毕业论文。 </p>
-			<p> <a href="./source/2020/Meta_Material_Cal1.m" download> matlab代码4 </a> 该代码演示了理想的耗散（相干）耦合谐振子，在不同失谐条件下的具体表现。通过I/Q曲线经过全部四个象限可以推断，耗散耦合导致了负耗散，也就是负电阻的产生。
+			<p> <a href="./source/Meta_Material_Cal2.m" download> matlab代码3 </a> 该代码演示了理想的单独的RLC谐振子，在正耗散、零耗散、负耗散时的具体表现。具体请见毕业论文。 </p>
+			<p> <a href="./source/Meta_Material_Cal1.m" download> matlab代码4 </a> 该代码演示了理想的耗散（相干）耦合谐振子，在不同失谐条件下的具体表现。通过I/Q曲线经过全部四个象限可以推断，耗散耦合导致了负耗散，也就是负电阻的产生。
 			负电阻的存在使得系统局部违反了热力学第二定律，但是系统整体的电阻为正，因此该现象并不违反物理定律。具体请见毕业论文。</p>
-			<p> <a href="./source/2020/Coupling_dispersion_Cal.m" download> matlab代码5 </a> 该代码演示了理论计算中，相干和耗散耦合的色散关系（特征值）以及特征向量的变化。 </p>
+			<p> <a href="./source/Coupling_dispersion_Cal.m" download> matlab代码5 </a> 该代码演示了理论计算中，相干和耗散耦合的色散关系（特征值）以及特征向量的变化。 </p>
 			
 			
 			<p>5月10日，完成论文第一版。 </p>
 			
-			<p>5月29日，修改完成论文第二版。 同日，完成Physical Review Applied回复意见修改稿，推导出耗散耦合的经典模型。通过传输矩阵推导，两个RLC谐振子通过传输线耦合可以导致耗散耦合。<a href="./source/2020/传输线双谐振子2.pdf">PDF</a> </p>
+			<p>5月29日，修改完成论文第二版。 同日，完成Physical Review Applied回复意见修改稿，推导出耗散耦合的经典模型。通过传输矩阵推导，两个RLC谐振子通过传输线耦合可以导致耗散耦合。<a href="./source/传输线双谐振子2.pptx">PPT</a> </p>
 			
-			<p><a href="./source/2020/w1box推导.nb" download> Mathematica 代码0 （前置推导）  </a></p>
-			<p><a href="./source/2020/传输线双谐振子.nb" download> Mathematica 代码1  </a></p>
-		    <p><a href="./source/2020/传输线双谐振子2.nb" download> Mathematica 代码2  </a></p>
+			<p><a href="./source/w1box推导.nb" download> Mathematica 代码0 （前置推导）  </a></p>
+			<p><a href="./source/传输线双谐振子.nb" download> Mathematica 代码1  </a></p>
+		    <p><a href="./source/传输线双谐振子2.nb" download> Mathematica 代码2  </a></p>
 			
-			<p>6月2日，修改完成论文第三版。同日，Physical Review Applied接受了我的论文。 </p>
+			<p>6月2日，修改完成论文第三版。同日，Physical Review Applied 接受了我的论文。 </p>
 			
-			<p>6月8日，硕士阶段的第二次进度报告（<a href="./source/2020/Progress Meeting2020June8.pdf">progress meeting</a>）。总结了硕士阶段的成果，并准备递交论文、答辩。 </p>
+			<p>6月8日，硕士阶段的第二次进度报告（<a href="./source/Progress Meeting2020June8.pptx">progress meeting</a>）。总结了硕士阶段的成果，并准备递交论文、答辩。 </p>
 			
 			<p>8月11日，顺利通过论文答辩（oral examination）。 </p>
 		 
 			
 			<p> 8月18日，论文修改版通过答辩委员会的审核。</p>
 			
-			<p>8月20日，递交<a href="https://mspace.lib.umanitoba.ca/handle/1993/35003">硕士毕业论文</a>的最终版本，<a href="./source/2020/7754781 Zhao, Yutong has comp MSc Fall 2020 Sep11_20e.pdf">完成曼尼托巴大学理学硕士学位所有要求。 </a> </p>
+			<p>8月20日，递交<a href="./source/YutongMasterThesis.pdf">硕士毕业论文</a>的最终版本，<a href="./source/7754781 Zhao, Yutong has comp MSc Fall 2020 Sep11_20e.pdf">完成曼尼托巴大学理学硕士学位所有要求。 </a> </p>
 			
-			<p><a href="./source/2020/PHYS1030 T1.pdf"> 春季学期 PHYS 1030 答疑讲解1 </a></p>
-			<p><a href="./source/2020/PHYS 1030 tutorial2.pdf">春季学期 PHYS 1030 答疑讲解2 </a></p>
+			<p><a href="./source/PHYS1030 T1.pptx"> 春季学期 PHYS 1030 答疑讲解1 </a></p>
+			<p><a href="./source/PHYS 1030 tutorial2.pptx">春季学期 PHYS 1030 答疑讲解2 </a></p>
 			
 			<h3 class="heading underline"> 2019年工作回顾 </h3>
 			
-			<p> 1月7日，作为DRDC项目的一部分。报告了不同化学物质粉末的介电常数扫描结果，以及测量去离子水的介电常数的初步结果。介绍了宽频非共振测量方法。同时完成了亚波长尺度微波探测器的论文。
+			<p> 1月7日，作为DRDC项目的一部分。报告了不同化学物质粉末的介电常数扫描结果，以及测量去离子水的介电常数的初步结果。介绍了宽频非共振测量方法。同时完成了
 			<a href="./source/2019/Group Meeting 20190107.pdf">PDF</a>  </p>
 			
-			<p> 1月14日，作为DRDC项目的一部分。报告水的介电常数在室温下的测量并对比了水的德拜模型。显示了用共振方法和非共振方法都可以获得相对精准的测量结果。 <a href="./source/2019/Group Meeting 20190114.pdf">PDF</a></p>
+			<p> 1月14日，作为DRDC项目的一部分。报告水的介电常数在室温下的测量并对比了水的德拜模型。显示了用共振方法和非共振方法都可以获得相对精准的测量结果。 <a href="./source/2019/Group Meeting 20190114.pptx">PPT</a></p>
 			
 			<p> 1月21日，作为DRDC项目的一部分。测量不同浓度的电解质溶液的介电常数。明确了共振方法高阶模式失真的物理原理。明确了介电常数的实部随浓度减小的物理观测，与其他研究者的工作一致。说明我们测量的结果可靠。
 			<a href="./source/2019/Group Meeting 20190121.pdf">PDF</a> </p>
 			
 			<p>  1月28日，报告了DRDC部分项目的最终结果。所有溶液的介电常数实部都随着浓度升高而下降，该原理已经在<a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.108.227801">一篇物理学评论</a>中阐述清楚。虚部所表现出来的复杂变化还没有理论解释。
-			并探讨了磁性粒子成像的基本原理及其可能合作的展望。并探讨了磁性粒子成像的基本原理及其可能合作的展望。<a href="./source/2019/Group Meeting 20190128.pdf">PDF</a></p>
+			并探讨了磁性粒子成像的基本原理及其可能合作的展望。并探讨了磁性粒子成像的基本原理及其可能合作的展望。<a href="./source/2019/Group Meeting 20190128.pptx">PDF</a></p>
 			
 			
-			<p> 2月11日，首次在模拟软件中发现超材料中的level attraction现象。并提出使用可变电容器实现电压控制的level attraction现象。并提出使用可变电容器实现电压控制的level attraction。<a href="./source/2019/Group Meeting 20190211.pdf">PDF</a> </p>
+			<p> 2月11日，首次在模拟软件中发现超材料中的level attraction现象。并提出使用可变电容器实现电压控制的level attraction现象。并提出使用可变电容器实现电压控制的level attraction。<a href="./source/2019/Group Meeting 20190211.pptx">PPT</a> </p>
 			<p><a href="./source/2019/CST_data_mapping.m">matlab代码:</a> CST模拟中导出的散射参量（S-parameter）画mapping。</p>
-			<p><a href="./source/2019/S21.txt">数据:</a> 举例，可以分析类似的样本数据(不能作为代码输入数据)。</p>
+			<p><a href="./source/2019/S21.txt">数据:</a> 举例，可以分析类似的样本数据。</p>
 			
-			<p> 2月25日，在实验中初步使用FR-4材料实现level attraction现象，同时实现了电压控制的Level attraction。<a href="./source/2019/Group Meeting 20190225.pdf">PDF</a> </p>
+			<p> 2月25日，在实验中初步使用FR-4材料实现level attraction现象，同时实现了电压控制的Level attraction。<a href="./source/2019/Group Meeting 20190225.pptx">PPT</a> </p>
 			<p>3月4日，使用更优质的RO5880材料更新了实验数据，并对现有数据进行了分析总结。<a href="./source/2019/Group Meeting 20190304.pdf">PDF</a>   </p>
 			
 			<p> 3月11日，提交<a href="http://magneticnorth.physics.umanitoba.ca/index.html">加拿大磁学会议6 （Magnetic North VI）</a> 的<a href="./source/2019/MNVI_Abstract_Yutong.pdf">参会摘要。</a> </p> 
 			
-			<p>4月25日，第一次进度报告，并递交硕士论文提案。提议两项工作，其中一项是超材料中的level attraction，另外一项工作由Jacob Burgess提议，使用宏观楞次效应产生阻力进而耗散型耦合。注意：在报告中最后一张图，已经展示了 <b>耗散型耦合导致同步</b>的初步计算结果。 
+			<p>4月25日，第一次进度报告，并递交硕士论文提案。提议两项工作，其中一项是超材料中的level attraction，另外一项工作由Jacob Burgess提议，使用宏观楞次效应产生阻力进而耗散型耦合。在报告中最后一张图，已经展示了耗散型耦合导致同步的初步计算结果。 
 			<a href="./source/2019/Thesis_Proposal Yutong.pdf">PDF </a>, <a href="./source/2019/progress_meeting.pdf">Presentation</a></p>
 			
-			<p> 5月6日， 受到超散射启发。报告测量驻波的微波场分布的结果。初步结果能验证CST软件模拟的场分布模式。同时提出实现耗散耦合机械谐振子的技术路线。<a href="./source/2019/Group Meeting 20190506.pdf">PDF</a> </p>
+			<p> 5月6日， 受到超散射启发。报告测量驻波的微波场分布的结果。初步结果能验证CST软件模拟的场分布模式。同时提出实现耗散耦合机械谐振子的技术路线。<a href="./source/2019/Group Meeting 20190506.pptx">PPT</a> </p>
 			<p> 5月7日，参加曼尼托巴材料学会议。<a href="./source/2019/Poster_MMC.pdf">海报</a>  </p>
 			
 			<p> 5月13日，正式注意到超材料中的模式线宽收缩。  </p>
-			<p> 6月3日，初步完成超材料中的Level attraction文章插图，同时基于相干耦合，提出耗散耦合的拉格朗日力学模型。 该模型可以基于电磁场空间分布解释为什么在叠加系数（overlapping coefficient）很大的情况下相干耦合很弱而耗散耦合很强。<a href="./source/2019/Group Meeting 20190603.pdf">PDF</a></p>
+			<p> 6月3日，初步完成超材料中的Level attraction文章插图，同时基于相干耦合，提出耗散耦合的拉格朗日力学模型。 该模型可以基于电磁场空间分布解释为什么在叠加系数（overlapping coefficient）很大的情况下相干耦合很弱而耗散耦合很强。<a href="./source/2019/Group Meeting 20190603.pptx">PPT</a>, <a href="./source/2019/Group Meeting 20190603.pdf">PDF</a></p>
 			
-			<p> 6月10日，讨论了数据分析中的拟合空间。确定了拟合时只有一组最优解，我们推定，该最优解对应的参数就是系统的实际参数。<a href="./source/2019/Group Meeting 20190610.pdf">PDF</a> </p>
+			<p> 6月10日，讨论了数据分析中的拟合空间。确定了拟合时只有一组最优解，我们推定，该最优解对应的参数就是系统的实际参数。<a href="./source/2019/Group Meeting 20190610.pptx">PPT</a> </p>
 			
 			<p> 6月17日，注意到了对于不同的失谐情况，相干耦合强度（J）和耗散耦合强度（Gamma）有着不同的相对符号（正负号）。和其他研究者的相关工作也出现了类似现象。</p>
 			
 			<p> 6月24日，使用动力学方程推导出耗散耦合的传输公式。 </p>
 			
-			<p> 7月8日，报告超散射的进一步实验结果。<a href="./source/2019/Group Meeting 20190708.pdf">PDF</a>  </p>
+			<p> 7月8日，报告超散射的进一步实验结果。<a href="./source/2019/Group Meeting 20190708.pptx">PPT</a>  </p>
 			
 			<p> 7月15日，总结其他研究者的耗散耦合的理论模型。  <a href="./source/2019/Group Meeting 20190715-theory on level attraction.pdf">PDF</a></p>
 			
 			
-			<p>8月19日，首次报告磁振子阻尼大小影响的耗散耦合的结果。创新使用surface plot突出表现零阻尼条件（ZDC）的位置变化。<a href="./source/2019/Group Meeting 20190819.pdf">PDF</a></p>
-			<p>9月17日，报告了ZDC随磁振子阻尼的变化结果，为之后的宽频单向阻隔器提供了全部实验支持。<a href="./source/2019/Group Meeting 20190917.pdf">PDF</a> </p>
+			<p>8月19日，首次报告磁振子阻尼大小影响的耗散耦合的结果。创新使用surface plot突出表现零阻尼条件（ZDC）的位置变化。<a href="./source/2019/Group Meeting 20190819.pptx">PPT</a></p>
+			<p>9月17日，报告了ZDC随磁振子阻尼的变化结果，为之后的宽频单向阻隔器提供了全部实验支持。<a href="./source/2019/Group Meeting 20190917.pptx">PPT</a> </p>
 			<p>  </p>
 			<p>9月30日，完成新型宽带微波隔离器（isolator）文章的插图第一版。 </p>
 			<p>10月21日，完成新型宽带微波隔离器（isolator）文章第一版。 </p>
@@ -140,11 +140,11 @@
 			<a href="./source/2019/Group Meeting 20191118.pdf">PDF</a></p>
 			<p> <a href="./source/2019/equivlent_Q.m" download>matlab代码</a>：等效品质因数，如何区分External Q factor， loaded Q factor 和 unloaded Q factor。说明耗散耦合系统有潜力做到无限大的品质因数。 </p>
 			
-			<p><a href="./source/2019/PHYS1050 Tutorial1.pdf">春季学期 PHYS 1050 答疑讲解1 </a></p>
-			<p><a href="./source/2019/PHYS1050 Tutorial2.pdf">春季学期 PHYS 1050 答疑讲解2 </a></p>
+			<p><a href="./source/2019/PHYS1050 Tutorial1.pptx">春季学期 PHYS 1050 答疑讲解1 </a></p>
+			<p><a href="./source/2019/PHYS1050 Tutorial2.pptx">春季学期 PHYS 1050 答疑讲解2 </a></p>
 			
 			<p><a href="./source/2019/Tutorial1.pdf">秋季学期 PHYS 1050 答疑讲解1 </a></p>
-			<p><a href="./source/2019/tutorial 2.pdf">秋季学期 PHYS 1050 答疑讲解2 </a></p>
+			<p><a href="./source/2019/tutorial 2.pptx">秋季学期 PHYS 1050 答疑讲解2 </a></p>
 			
 			<p>完成课程 ECE 7440 Microwave Materials Measurement Techniques 微波材料测量技术 by  Dr. Gregory Bridges  （A+）</p>
 			
@@ -152,15 +152,15 @@
 			
 			<p>1月8日，搭建介电常数测量实验，使用共振方法。作为DRDC项目的一部分。  </p>
 			
-			<p>1月15日，报告初步介电常数测量的实验数据。（DRDC项目） <a href="./source/2018/Group Meeting 20180115.pdf">PDF</a> </p>
+			<p>1月15日，报告初步介电常数测量的实验数据。（DRDC项目） <a href="./source/2018/Group Meeting 20180115.pptx">PPT</a> </p>
 			
-			<p>1月22日，完成大部分测量。并提出一个经验模型来解释不同化学物质的介电性质随着不同含水量的变化。（DRDC项目） <a href="./source/2018/Group Meeting 20180122.pdf">PDF</a> </p>
+			<p>1月22日，完成大部分测量。并提出一个经验模型来解释不同化学物质的介电性质随着不同含水量的变化。（DRDC项目） <a href="./source/2018/Group Meeting 20180122.pptx">PPT</a> </p>
 			
-			<p>1月29日，完成测量及数据分析。完善模型及拟合，并与非共振方法的测量结果对比。两种方法给出的结果一致，证明了我们的测量的准确性，可信性。（DRDC项目）<a href="./source/2018/Group Meeting 20180129.pdf">PDF</a>  </p>
+			<p>1月29日，完成测量及数据分析。完善模型及拟合，并与非共振方法的测量结果对比。两种方法给出的结果一致，证明了我们的测量的准确性，可信性。（DRDC项目）<a href="./source/2018/Group Meeting 20180129.pptx">PPT</a>  </p>
 			
-			<p>2月26日，展示两个YIG球之间的长程耦合实验初步结果。同时有相关理论支持。 <a href="./source/2018/Group Meeting 20180226.pdf">PDF</a> </p>
+			<p>2月26日，展示两个YIG球之间的长程耦合实验初步结果。同时有相关理论支持。 <a href="./source/2018/Group Meeting 20180226.pptx">PPT</a> </p>
 			
-			<p>3月5日，本科毕业论文大纲和二维微波全息成像初步结果（DRDC项目）。 <a href="./source/2018/Group Meeting 20180305.pdf">PDF</a> </p>
+			<p>3月5日，本科毕业论文大纲和二维微波全息成像初步结果（DRDC项目）。 <a href="./source/2018/Group Meeting 20180305.pptx">PPT</a> </p>
 			
 			<p> 4月9日， 完成本科毕业论文。</p>
 			
@@ -171,35 +171,35 @@
 			
 			<p> 4月19日，为<a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.121.137203">Level attraction文章</a>配画插图。 </p>
 			
-			<p> 4月30日，提案写一篇关于介电常数的文章，同时提出两个可能的技术路线来实现三维的微波全息成像。 <a href="./source/2018/Group Meeting 20180430.pdf">PDF</a>  </p>
+			<p> 4月30日，提案写一篇关于介电常数的文章，同时提出两个可能的技术路线来实现三维的微波全息成像。 <a href="./source/2018/Group Meeting 20180430.pptx">PPT</a>  </p>
 			
 			<p> 6月1日， 于兰州大学完成本科毕业论文（中文）。</p>
 			
 			<p>论文题目： 磁子和平面有源腔中微波光子相干耦合研究。  <a href="./source/2018/赵宇彤的中文毕业论文_修改版.pdf">PDF</a>  </p>
 			<p>毛概论文：  毛泽东思想在新时代的发展。<a href="./source/2018/毛泽东思想在新时代的发展.docx">DOC</a>  </p>
 			
-			<p> 6月29日，模拟三维圆柱共振腔中的模式分布：共振模式（Resonance）与反共振模式（Anti-Resonance）。<a href="./source/2018/circular cavity field distribution.pdf">PDF</a> </p>
+			<p> 6月29日，模拟三维圆柱共振腔中的模式分布：共振模式（Resonance）与反共振模式（Anti-Resonance）。<a href="./source/2018/circular cavity field distribution.pptx">PPT</a> </p>
 			
-			<p> 9月17日，报告了耦合以耦合影响的非线性效应。<a href="./source/2018/Group_Meeting 20180917.pdf">PDF</a>  </p>
+			<p> 9月17日，报告了耦合以耦合影响的非线性效应。<a href="./source/2018/Group_Meeting 20180917.pptx">PPT</a>  </p>
 			
-			<p> 10月1日，使用微扰方法研究产生level attraction的一维圆柱微波腔的场分布模式。 <a href="./source/2018/Group Meeting 20181001.pdf">PDF</a></p>
+			<p> 10月1日，使用微扰方法研究产生level attraction的一维圆柱微波腔的场分布模式。 <a href="./source/2018/Group Meeting 20181001.pptx">PPT</a></p>
 			
-			<p> 10月15日，继续探索level attraction的微观机理。并提出使用有源微波腔来进行无损检测和非接触式介电常数测量，展示了初步的实验数据。  <a href="./source/2018/Group Meeting 20181015.pdf">PDF</a> </p>
+			<p> 10月15日，继续探索level attraction的微观机理。并提出使用有源微波腔来进行无损检测和非接触式介电常数测量，展示了初步的实验数据。  <a href="./source/2018/Group Meeting 20181015.pptx">PPT</a> </p>
 			
-			<p> 10月22日，报告了两个SSR之间的长程耦合的初步实验数据。 <a href="./source/2018/Group Meeting 20181022 Yutong.pdf">PDF</a> </p>
+			<p> 10月22日，报告了两个SSR之间的长程耦合的初步实验数据。 <a href="./source/2018/Group Meeting 20181022 Yutong.pptx">PPT</a> </p>
 			
 			<p> 10月23日，以耦合影响的自旋非线性动力学为内容，参加科学院本科生科研海报大赛。<a href="./source/2018/FOSposter_Yutong2018.pdf">PDF</a>   </p>
 			
-			<p> 10月29日， 合作提出长程耦合的理论解释。并解释了之前的实验数据。<a href="./source/2018/Group Meeting 20181029.pdf">PDF</a> </p>
+			<p> 10月29日， 合作提出长程耦合的理论解释。并解释了之前的实验数据。<a href="./source/2018/Group Meeting 20181029.pptx">PPT</a> </p>
 			
 			<p> 11月5日， DRDC项目：介电常数空间分布测量进展，进展顺利，获得大部分所需数据。
-			长程耦合：从理论上解释了为什么不会出现拉比劈裂（Rabi-Splitting）。 <a href="./source/2018/Group Meeting 20181105.pdf">PDF</a></p>
+			长程耦合：从理论上解释了为什么不会出现拉比劈裂（Rabi-Splitting）。 <a href="./source/2018/Group Meeting 20181105.pptx">PPT</a></p>
 			
 			<p> 11月19日，总结近场成像结果。同时继续探究长程耦合的理论解释（不同相位时出现不同的现象）。模拟了一篇文章的结果。 <a href="./source/2018/Group Meeting 20181119 .pdf">PDF</a> </p>
 			
-			<p> 11月26日，报告DRDC项目进展。 初步写成一份关于微波近场成像的文章。 <a href="./source/2018/Group Meeting 20181126 - 副本.pdf">PDF</a></p>
+			<p> 11月26日，报告DRDC项目进展。 初步写成一份关于微波近场成像的文章。 <a href="./source/2018/Group Meeting 20181126 - 副本.pptx">PPT</a></p>
 			
-			<p> 12月10日，报告DRDC项目进展。  <a href="./source/2018/Group Meeting 20181210.pdf">PDF</a> </p>
+			<p> 12月10日，报告DRDC项目进展。  <a href="./source/2018/Group Meeting 20181210.pptx">PPT</a> </p>
 			
 			<p>  </p>
 			

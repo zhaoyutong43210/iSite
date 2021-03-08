@@ -1,0 +1,39 @@
+<html> 
+  <meta charset="UTF-8">
+  <head> 
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> 
+    <script> 
+    $(function(){
+      $("#includedheader").load("./htmls/header_cn.html"); 
+    });
+    $(function(){
+      $("#includedfooter").load("./htmls/footer_cn.html");
+    });	 
+    </script> 
+  </head> 
+
+  <body> 
+     <div id="includedheader"></div>
+	 
+
+	 <div class="row">
+	 <div class="col-sm-6 col-sm-offset-3 m-t-50">
+	 <h3 class="text-center">温尼伯房地产销售数据交互式地图</h1>
+	 <p><b>使用说明</b></p>
+	 
+	 <p>鼠标悬停在数据点上就可以看到销售记录的具体信息。</p>
+	 <p>为了使同一房屋的多组销售数据都可以被看到。我们对同一地址大于一条历史记录的数据做了随机平移处理，以防被覆盖无法选中。如果您想要检查的房屋有多条销售记录，请在地址附近仔细找一找。有的多条数据是相同的，那是因为这条数据出现在了不同的sale book里。</p>
+	
+	 <p>所有面积单位都是平方英尺（square feet）和平方米的换算关系为： 100 平方英尺 = 9.29平方米</p>
+	 <p>在显示售价的同时还显示了2020年的政府估价。</p>
+	 
+	 <iframe src="./htmls/winnipeg_house_sale2010-2018.html" height="600" width="800" title="map1"></iframe>
+	 
+	 <p>更多信息请参考：</p>
+	 <p> 温尼伯房地产的基本信息及其分析： <a href="./Matlab_Real_estate.html">如何用MATLAB看懂温尼伯房地产</a></p>
+	 </div>
+	 </div>
+	 
+<div id="includedfooter"></div>
+  </body> 
+</html>

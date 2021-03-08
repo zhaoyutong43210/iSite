@@ -34,8 +34,9 @@
 		<p>除政府估值外，市政还提供了2010年以来的房产交易记录（sale book），每两年以pdf格式的书籍发布一次。目前可以得到的有2016和2018年两年的pdf交易记录，<a href="http://winnipegassessment.com/AsmtTax/English/SelfService/SalesBooks.stm">发布地址</a>：	</p>
   <p class="text-center"><a href="http://winnipegassessment.com/AsmtTax/pdfs/SelfService/sales_book_market_region_1.pdf">     2018年交易手册</a></p>
   <p class="text-center"><a href="http://winnipegassessment.com/AsmtTax/pdfs/SelfService/2016/sales_book_market_region_1.pdf">2016年交易手册</a></p> 
-  <!-- <p class="text-center"><a href="http://winnipegassessment.com/AsmtTax/pdfs/SelfService/2014/sales_book_market_region_1.pdf">2014年交易手册</a></p> -->
-  <!-- <p class="text-center"><a href="http://winnipegassessment.com/AsmtTax/pdfs/SelfService/2012/sales_book_market_region_1.pdf">2012年交易手册</a></p> -->
+  <p class="text-center"><a href="http://winnipegassessment.com/AsmtTax/pdfs/SelfService/2014/sales_book_market_region_1.pdf">2014年交易手册</a></p>
+  <p class="text-center"><a href="http://winnipegassessment.com/AsmtTax/pdfs/SelfService/2012/sales_book_market_region_1.pdf">2012年交易手册</a></p>
+   <a href="http://winnipegassessment.com/AsmtTax/English/SelfService/SalesBooks.stm">不动产交易手册查询入口（温尼伯官方- 英文网站）</a>
  
         <p>根据其中的信息，我们可以使用MATLAB中的读取文件的信息和正则表达式生成容易处理的文件，最终得到2010-2020年度温尼伯市房产交易的全部资料。然而由于数据发布的滞后性，我们很难得到当前的房地产市场走向。
 		幸运的是，房产的特性不同于股票等证券，绝大部分人持有房产是一个长期的过程。而且由于高昂的交易税费，短期内购买并售出并不能获利很多。
@@ -160,17 +161,24 @@
 		以上信息全部来源于公开信息、官方渠道。希望您能在阅读本文后，能对温尼伯的房地产市场有一个基本但是全面的了解。任何人转载本文请注明出处。
 		任何人不应以此信息牟利，如果发现类似情况，请与作者联系。
 		最后，祝大家心想事成，积极向上，面对生活。</p>
-		<h3 class="text-center">附录：MATLAB爬虫</h3>
-		<p>将地址变成经纬度的过程被称为坐标化（Geocoding），MATLAB作为一种编程软件，自然是可以完成的。	</p>
+		
+		<h3 class="text-center">附录0：销售PDF文件到可处理数据</h3>
+		<p> 温尼伯市政府2010年以来公布的房屋销售数据都存储在PDF文件中。很明显，这种形式的数据非常不方便处理。 有两种方法可以提取出其中的数据。第一种，如果在PDF显示的图像中同时储存了对应的文本字符，我们可以读取出来在进行正则表达式的变换。由于排版并不统一，这种情况读取出来的数据可能异常复杂（但很精确，并没有识别的错误），对此数据进行“清理”就花费了笔者大量的时间。如果仅仅显示了图像而没有任何字符， 则需要先进行ORC文本识别（光学字符识别）， 再进行第一步的操作， 这种情况下，识别产生的错误在所难免。</p>
+		
+		<h3 class="text-center">附录1：MATLAB爬虫</h3>
+		<p>将地址变成经纬度的过程被称为坐标化（Geocoding），获取经纬坐标在数据可视化的过程中非常重要。双精度的坐标数据更能将 房产的销售记录直观的在地图上表示出来。
+		MATLAB作为一种科学编程软件，写出一个简单的爬虫来获取静态网页的数据并完成地址坐标化。爬虫本来并不是这款软件的长处， 而在做该项目初期，笔者还在Python的初学阶段，而MATLAB作为使用多年的软件更显得得心应手，因此这个项目使用了并不常见的MATLAB写了简单的爬虫。	</p>
+		
 		<h3 class="text-center">个性化订制(数据报告) / 联系我们</h3>
 		
-		<p> 项目公开数据之外，本项目组提供个性化定制的数据，详见案例，该项服务在前期免费，后期则可能产生费用。</p>
+		<p> 项目公开数据之外，本项目组提供个性化定制的数据，具体请咨询作者。</p>
         <p> 我们本着诚信、开放的原则欢迎合作。 具体情况请通过 电话/短信/微信/电邮 垂询。</p>
         <p> 电话/短信: +1（204）293-0625 </p>
 		<p> 电子邮箱: zhaoyutong43210@gmail.com </p>
 		<p> 微信: 请见个人网站二维码。 </p>
 		<img src="./images/qrcode.jpg"  alt="wechatQRcode" width = 100 />
-		
+		<p>微信公众号：加拿大的心跳 Canadas_Heart_Beats</p>
+		本文最后更新于2021年3月8日。
 	</div>
 </div>
 	
