@@ -6,6 +6,7 @@ please use the following link to visit this website:
 
 https://zhaoyutong43210.github.io/iSite/
 
+# Highlights
 There are several highlight of this website, please find the following: 
 
 The interactive map of Winnipeg Real Estate saleing data from 2010 to 2018
