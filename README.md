@@ -1,4 +1,4 @@
-# Yutong's Personal Website | (iSite)
+# Yutong's Personal Website 
 
 This is the Yutong Zhao's Personal Webstie
 
