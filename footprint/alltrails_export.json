@@ -24,7 +24,7 @@
 },
 {
 "type": "Feature",
-"properties": {"source":"Alltrails Export (gpx track)","time":"2023/10/19 18:34","time_end":"2023/10/19 18:42","name":"AB_CGY_Ings_Mine_Canyon Creek Ice Cave Trail","distance":14.44,"elev_gain":584.96,"pace_moving":12.87,"pace_overall":18.79,"time_overall":271.35}
+"properties": {"source":"Alltrails Export (gpx track)","time":"2023/10/19 18:34","time_end":"2023/10/19 18:42","name":"AB_CGY_Ings_Mine_Canyon Creek Ice Cave Trail","distance_km":14.44,"elev_gain_m":584.96,"pace_moving_km_per_min":12.87,"pace_overall_km_per_min":18.79,"time_overall_min":271.35}
 ,
  "geometry": {
 "type": "LineString",
@@ -34,7 +34,7 @@
 },
 {
 "type": "Feature",
-"properties": {"source":"Alltrails Export (gpx track)","time":"2023/10/21 18:01","time_end":"2023/10/21 22:26","name":"AB_Canmore_Rat_Cave_and_hike","distance":2.7,"elev_gain":177.19,"pace_moving":23.9,"pace_overall":98.11,"time_overall":265.2}
+"properties": {"source":"Alltrails Export (gpx track)","time":"2023/10/21 18:01","time_end":"2023/10/21 22:26","name":"AB_Canmore_Rat_Cave_and_hike","distance_km":2.7,"elev_gain_m":177.19,"pace_moving_km_per_min":23.9,"pace_overall_km_per_min":98.11,"time_overall_min":265.2}
 ,
  "geometry": {
 "type": "LineString",
@@ -44,7 +44,7 @@
 },
 {
 "type": "Feature",
-"properties": {"source":"Alltrails Export (gpx track)","time":"2023/10/18 21:09","time_end":"2023/10/18 22:08","name":"AB_Canmore_Three_Sisters_Creek_Trail","distance":3.27,"elev_gain":168.05,"pace_moving":18.03,"pace_overall":18.05,"time_overall":58.97}
+"properties": {"source":"Alltrails Export (gpx track)","time":"2023/10/18 21:09","time_end":"2023/10/18 22:08","name":"AB_Canmore_Three_Sisters_Creek_Trail","distance_km":3.27,"elev_gain_m":168.05,"pace_moving_km_per_min":18.03,"pace_overall_km_per_min":18.05,"time_overall_min":58.97}
 ,
  "geometry": {
 "type": "LineString",
@@ -414,7 +414,7 @@
 },
 {
 "type": "Feature",
-"properties": {"source":"Alltrails Export (gpx track)","time":"2023/09/02 21:58","time_end":"2023/09/02 22:49","name":"ME_Acadia_NP_bubble_rcok_part2","distance":6.31,"elev_gain":73.01,"pace_moving":14.66,"pace_overall":8.23,"time_overall":51.92}
+"properties": {"source":"Alltrails Export (gpx track)","time":"2023/09/02 21:58","time_end":"2023/09/02 22:49","name":"ME_Acadia_NP_bubble_rcok_part2","distance_km":6.31,"elev_gain_m":73.01,"pace_moving_km_per_min":14.66,"pace_overall_km_per_min":8.23,"time_overall_min":51.92}
 ,
  "geometry": {
 "type": "LineString",
@@ -454,7 +454,7 @@
 },
 {
 "type": "Feature",
-"properties": {"source":"Alltrails Export (gpx track)","time":"2024/07/03 12:31","time_end":"2024/07/03 16:18","name":"NL_Gros_Morne_NP_Bakers_Brook_Fall","distance":10.59,"elev_gain":271.13,"pace_moving":16.68,"pace_overall":21.38,"time_overall":226.37}
+"properties": {"source":"Alltrails Export (gpx track)","time":"2024/07/03 12:31","time_end":"2024/07/03 16:18","name":"NL_Gros_Morne_NP_Bakers_Brook_Fall","distance_km":10.59,"elev_gain_m":271.13,"pace_moving_km_per_min":16.68,"pace_overall_km_per_min":21.38,"time_overall_min":226.37}
 ,
  "geometry": {
 "type": "LineString",
@@ -464,7 +464,7 @@
 },
 {
 "type": "Feature",
-"properties": {"source":"Alltrails Export (gpx track)","time":"2024/07/02 13:29","time_end":"2024/07/02 18:09","name":"NL_Gros_Morne_NP_Green_Gardens","distance":10.94,"elev_gain":403.76,"pace_moving":19.1,"pace_overall":25.53,"time_overall":279.32}
+"properties": {"source":"Alltrails Export (gpx track)","time":"2024/07/02 13:29","time_end":"2024/07/02 18:09","name":"NL_Gros_Morne_NP_Green_Gardens","distance_km":10.94,"elev_gain_m":403.76,"pace_moving_km_per_min":19.1,"pace_overall_km_per_min":25.53,"time_overall_min":279.32}
 ,
  "geometry": {
 "type": "LineString",
@@ -474,7 +474,7 @@
 },
 {
 "type": "Feature",
-"properties": {"source":"Alltrails Export (gpx track)","time":"2024/07/04 11:42","time_end":"2024/07/04 19:52","name":"NL_Gros_Morne_NP_Gros_Morne_Mountain","distance":18.23,"elev_gain":948.52,"pace_moving":18.61,"pace_overall":26.9,"time_overall":490.38}
+"properties": {"source":"Alltrails Export (gpx track)","time":"2024/07/04 11:42","time_end":"2024/07/04 19:52","name":"NL_Gros_Morne_NP_Gros_Morne_Mountain","distance_km":18.23,"elev_gain_m":948.52,"pace_moving_km_per_min":18.61,"pace_overall_km_per_min":26.9,"time_overall_min":490.38}
 ,
  "geometry": {
 "type": "LineString",
@@ -484,7 +484,7 @@
 },
 {
 "type": "Feature",
-"properties": {"source":"Alltrails Export (gpx track)","time":"2024/07/01 17:50","time_end":"2024/07/01 20:46","name":"NL_Gros_Morne_NP_Lookout_Trail","distance":6.24,"elev_gain":340.25,"pace_moving":21.03,"pace_overall":28.23,"time_overall":176.2}
+"properties": {"source":"Alltrails Export (gpx track)","time":"2024/07/01 17:50","time_end":"2024/07/01 20:46","name":"NL_Gros_Morne_NP_Lookout_Trail","distance_km":6.24,"elev_gain_m":340.25,"pace_moving_km_per_min":21.03,"pace_overall_km_per_min":28.23,"time_overall_min":176.2}
 ,
  "geometry": {
 "type": "LineString",
@@ -494,7 +494,7 @@
 },
 {
 "type": "Feature",
-"properties": {"source":"Alltrails Export (gpx track)","time":"2024/07/01 12:36","time_end":"2024/07/01 17:15","name":"NL_Gros_Morne_NP_TableLand_offroad","distance":5.3,"elev_gain":243.85,"pace_moving":23.24,"pace_overall":52.59,"time_overall":278.62}
+"properties": {"source":"Alltrails Export (gpx track)","time":"2024/07/01 12:36","time_end":"2024/07/01 17:15","name":"NL_Gros_Morne_NP_TableLand_offroad","distance_km":5.3,"elev_gain_m":243.85,"pace_moving_km_per_min":23.24,"pace_overall_km_per_min":52.59,"time_overall_min":278.62}
 ,
  "geometry": {
 "type": "LineString",
@@ -504,7 +504,7 @@
 },
 {
 "type": "Feature",
-"properties": {"source":"Alltrails Export (gpx track)","time":"2024/07/03 17:40","time_end":"2024/07/03 21:13","name":"NL_Gros_Morne_NP_WestBrook_Cruise","distance":38.93,"elev_gain":167.2,"pace_moving":14.27,"pace_overall":5.48,"time_overall":213.33}
+"properties": {"source":"Alltrails Export (gpx track)","time":"2024/07/03 17:40","time_end":"2024/07/03 21:13","name":"NL_Gros_Morne_NP_WestBrook_Cruise","distance_km":38.93,"elev_gain_m":167.2,"pace_moving_km_per_min":14.27,"pace_overall_km_per_min":5.48,"time_overall_min":213.33}
 ,
  "geometry": {
 "type": "LineString",
@@ -514,7 +514,7 @@
 },
 {
 "type": "Feature",
-"properties": {"source":"Alltrails Export (gpx track)","time":"2024/06/29 15:18","time_end":"2024/06/29 18:06","name":"NL_Skerwink_Trail","distance":5.7,"elev_gain":74.54,"pace_moving":18.32,"pace_overall":29.36,"time_overall":167.48}
+"properties": {"source":"Alltrails Export (gpx track)","time":"2024/06/29 15:18","time_end":"2024/06/29 18:06","name":"NL_Skerwink_Trail","distance_km":5.7,"elev_gain_m":74.54,"pace_moving_km_per_min":18.32,"pace_overall_km_per_min":29.36,"time_overall_min":167.48}
 ,
  "geometry": {
 "type": "LineString",
@@ -524,7 +524,7 @@
 },
 {
 "type": "Feature",
-"properties": {"source":"Alltrails Export (gpx track)","time":"2024/06/30 18:15","time_end":"2024/06/30 19:28","name":"NL_Steady_Brook_Falls","distance":1.61,"elev_gain":100.65,"pace_moving":17.13,"pace_overall":45.5,"time_overall":73.37}
+"properties": {"source":"Alltrails Export (gpx track)","time":"2024/06/30 18:15","time_end":"2024/06/30 19:28","name":"NL_Steady_Brook_Falls","distance_km":1.61,"elev_gain_m":100.65,"pace_moving_km_per_min":17.13,"pace_overall_km_per_min":45.5,"time_overall_min":73.37}
 ,
  "geometry": {
 "type": "LineString",
@@ -534,7 +534,7 @@
 },
 {
 "type": "Feature",
-"properties": {"source":"Alltrails Export (gpx track)","time":"2024/06/08 14:26","time_end":"2024/06/09 01:45","name":"NY_Adirondack_Mount_Marcy via Van Hoevenberg Trail","distance":25.26,"elev_gain":1083.11,"pace_moving":19.56,"pace_overall":26.89,"time_overall":679.25}
+"properties": {"source":"Alltrails Export (gpx track)","time":"2024/06/08 14:26","time_end":"2024/06/09 01:45","name":"NY_Adirondack_Mount_Marcy via Van Hoevenberg Trail","distance_km":25.26,"elev_gain_m":1083.11,"pace_moving_km_per_min":19.56,"pace_overall_km_per_min":26.89,"time_overall_min":679.25}
 ,
  "geometry": {
 "type": "LineString",
@@ -544,7 +544,7 @@
 },
 {
 "type": "Feature",
-"properties": {"source":"Alltrails Export (gpx track)","time":"2024/09/02 15:54","time_end":"2024/09/02 21:34","name":"ON_AGQ Barron Canyon Paddle","distance":17.73,"elev_gain":300.35,"pace_moving":16.83,"pace_overall":19.18,"time_overall":340.03}
+"properties": {"source":"Alltrails Export (gpx track)","time":"2024/09/02 15:54","time_end":"2024/09/02 21:34","name":"ON_AGQ Barron Canyon Paddle","distance_km":17.73,"elev_gain_m":300.35,"pace_moving_km_per_min":16.83,"pace_overall_km_per_min":19.18,"time_overall_min":340.03}
 ,
  "geometry": {
 "type": "LineString",
@@ -564,7 +564,7 @@
 },
 {
 "type": "Feature",
-"properties": {"source":"Alltrails Export (gpx track)","time":"2024/09/02 21:56","time_end":"2024/09/02 22:45","name":"ON_AGQ_barron_canyon","distance":14.54,"elev_gain":259.99,"pace_moving":15.46,"pace_overall":3.33,"time_overall":48.5}
+"properties": {"source":"Alltrails Export (gpx track)","time":"2024/09/02 21:56","time_end":"2024/09/02 22:45","name":"ON_AGQ_barron_canyon","distance_km":14.54,"elev_gain_m":259.99,"pace_moving_km_per_min":15.46,"pace_overall_km_per_min":3.33,"time_overall_min":48.5}
 ,
  "geometry": {
 "type": "LineString",
@@ -584,7 +584,7 @@
 },
 {
 "type": "Feature",
-"properties": {"source":"Alltrails Export (gpx track)","time":"2024/10/05 16:41","time_end":"2024/10/05 18:13","name":"ON_OTW_Blueberry Mountain","distance":4.71,"elev_gain":146.35,"pace_moving":16.01,"pace_overall":19.55,"time_overall":92}
+"properties": {"source":"Alltrails Export (gpx track)","time":"2024/10/05 16:41","time_end":"2024/10/05 18:13","name":"ON_OTW_Blueberry Mountain","distance_km":4.71,"elev_gain_m":146.35,"pace_moving_km_per_min":16.01,"pace_overall_km_per_min":19.55,"time_overall_min":92}
 ,
  "geometry": {
 "type": "LineString",
@@ -594,7 +594,7 @@
 },
 {
 "type": "Feature",
-"properties": {"source":"Alltrails Export (gpx track)","time":"2024/09/14 15:54","time_end":"2024/09/14 21:58","name":"ON_OTW_Desjardins Trail","distance":11.65,"elev_gain":478.03,"pace_moving":22.54,"pace_overall":31.29,"time_overall":364.45}
+"properties": {"source":"Alltrails Export (gpx track)","time":"2024/09/14 15:54","time_end":"2024/09/14 21:58","name":"ON_OTW_Desjardins Trail","distance_km":11.65,"elev_gain_m":478.03,"pace_moving_km_per_min":22.54,"pace_overall_km_per_min":31.29,"time_overall_min":364.45}
 ,
  "geometry": {
 "type": "LineString",
@@ -604,7 +604,7 @@
 },
 {
 "type": "Feature",
-"properties": {"source":"Alltrails Export (gpx track)","time":"2024/08/17 12:09","time_end":"2024/08/17 12:39","name":"ON_OTW_Dragon boat race #1","distance":1.64,"elev_gain":74.31,"pace_moving":13.93,"pace_overall":18.63,"time_overall":30.58}
+"properties": {"source":"Alltrails Export (gpx track)","time":"2024/08/17 12:09","time_end":"2024/08/17 12:39","name":"ON_OTW_Dragon boat race #1","distance_km":1.64,"elev_gain_m":74.31,"pace_moving_km_per_min":13.93,"pace_overall_km_per_min":18.63,"time_overall_min":30.58}
 ,
  "geometry": {
 "type": "LineString",
@@ -614,7 +614,7 @@
 },
 {
 "type": "Feature",
-"properties": {"source":"Alltrails Export (gpx track)","time":"2024/09/08 15:45","time_end":"2024/09/08 21:33","name":"ON_OTW_Eagles Nest and Skywalk","distance":12.55,"elev_gain":431.1,"pace_moving":21.9,"pace_overall":27.72,"time_overall":347.9}
+"properties": {"source":"Alltrails Export (gpx track)","time":"2024/09/08 15:45","time_end":"2024/09/08 21:33","name":"ON_OTW_Eagles Nest and Skywalk","distance_km":12.55,"elev_gain_m":431.1,"pace_moving_km_per_min":21.9,"pace_overall_km_per_min":27.72,"time_overall_min":347.9}
 ,
  "geometry": {
 "type": "LineString",
@@ -624,7 +624,7 @@
 },
 {
 "type": "Feature",
-"properties": {"source":"Alltrails Export (gpx track)","time":"2024/09/15 18:18","time_end":"2024/09/15 21:49","name":"ON_OTW_GTN_Luskcave","distance":11.06,"elev_gain":211.69,"pace_moving":13.27,"pace_overall":19.1,"time_overall":211.13}
+"properties": {"source":"Alltrails Export (gpx track)","time":"2024/09/15 18:18","time_end":"2024/09/15 21:49","name":"ON_OTW_GTN_Luskcave","distance_km":11.06,"elev_gain_m":211.69,"pace_moving_km_per_min":13.27,"pace_overall_km_per_min":19.1,"time_overall_min":211.13}
 ,
  "geometry": {
 "type": "LineString",
@@ -654,7 +654,7 @@
 },
 {
 "type": "Feature",
-"properties": {"source":"Alltrails Export (gpx track)","time":"2024/10/06 14:52","time_end":"2024/10/06 17:06","name":"ON_OTW_Luskville Falls_big_loop","distance":6.34,"elev_gain":425.82,"pace_moving":18,"pace_overall":21.17,"time_overall":134.23}
+"properties": {"source":"Alltrails Export (gpx track)","time":"2024/10/06 14:52","time_end":"2024/10/06 17:06","name":"ON_OTW_Luskville Falls_big_loop","distance_km":6.34,"elev_gain_m":425.82,"pace_moving_km_per_min":18,"pace_overall_km_per_min":21.17,"time_overall_min":134.23}
 ,
  "geometry": {
 "type": "LineString",
@@ -664,7 +664,7 @@
 },
 {
 "type": "Feature",
-"properties": {"source":"Alltrails Export (gpx track)","time":"2024/10/06 17:52","time_end":"2024/10/06 19:10","name":"ON_OTW_Mackenzie King_abbey_ruins_la_chute","distance":4.86,"elev_gain":126.95,"pace_moving":14.65,"pace_overall":16.03,"time_overall":77.95}
+"properties": {"source":"Alltrails Export (gpx track)","time":"2024/10/06 17:52","time_end":"2024/10/06 19:10","name":"ON_OTW_Mackenzie King_abbey_ruins_la_chute","distance_km":4.86,"elev_gain_m":126.95,"pace_moving_km_per_min":14.65,"pace_overall_km_per_min":16.03,"time_overall_min":77.95}
 ,
  "geometry": {
 "type": "LineString",
@@ -674,7 +674,7 @@
 },
 {
 "type": "Feature",
-"properties": {"source":"Alltrails Export (gpx track)","time":"2024/10/01 22:31","time_end":"2024/10/01 23:26","name":"ON_OTW_Morris Island Conservation Area","distance":2.88,"elev_gain":42.97,"pace_moving":19.24,"pace_overall":19.15,"time_overall":55.08}
+"properties": {"source":"Alltrails Export (gpx track)","time":"2024/10/01 22:31","time_end":"2024/10/01 23:26","name":"ON_OTW_Morris Island Conservation Area","distance_km":2.88,"elev_gain_m":42.97,"pace_moving_km_per_min":19.24,"pace_overall_km_per_min":19.15,"time_overall_min":55.08}
 ,
  "geometry": {
 "type": "LineString",
@@ -684,7 +684,7 @@
 },
 {
 "type": "Feature",
-"properties": {"source":"Alltrails Export (gpx track)","time":"2024/08/17 19:05","time_end":"2024/08/17 19:24","name":"ON_OTW_dragon_boat_1000m","distance":1.65,"elev_gain":63.3,"pace_moving":15.96,"pace_overall":11.37,"time_overall":18.77}
+"properties": {"source":"Alltrails Export (gpx track)","time":"2024/08/17 19:05","time_end":"2024/08/17 19:24","name":"ON_OTW_dragon_boat_1000m","distance_km":1.65,"elev_gain_m":63.3,"pace_moving_km_per_min":15.96,"pace_overall_km_per_min":11.37,"time_overall_min":18.77}
 ,
  "geometry": {
 "type": "LineString",
@@ -704,7 +704,7 @@
 },
 {
 "type": "Feature",
-"properties": {"source":"Alltrails Export (gpx track)","time":"2024/08/17 17:17","time_end":"2024/08/17 17:33","name":"ON_OTW_dragon_boat_200m","distance":1.55,"elev_gain":67.27,"pace_moving":11.89,"pace_overall":10.5,"time_overall":16.28}
+"properties": {"source":"Alltrails Export (gpx track)","time":"2024/08/17 17:17","time_end":"2024/08/17 17:33","name":"ON_OTW_dragon_boat_200m","distance_km":1.55,"elev_gain_m":67.27,"pace_moving_km_per_min":11.89,"pace_overall_km_per_min":10.5,"time_overall_min":16.28}
 ,
  "geometry": {
 "type": "LineString",
@@ -714,7 +714,7 @@
 },
 {
 "type": "Feature",
-"properties": {"source":"Alltrails Export (gpx track)","time":"2024/09/04 22:21","time_end":"2024/09/05 00:25","name":"ON_OTW_shirleysBay_center_island","distance":11.14,"elev_gain":31.4,"pace_moving":13.88,"pace_overall":11.14,"time_overall":124.13}
+"properties": {"source":"Alltrails Export (gpx track)","time":"2024/09/04 22:21","time_end":"2024/09/05 00:25","name":"ON_OTW_shirleysBay_center_island","distance_km":11.14,"elev_gain_m":31.4,"pace_moving_km_per_min":13.88,"pace_overall_km_per_min":11.14,"time_overall_min":124.13}
 ,
  "geometry": {
 "type": "LineString",
@@ -724,7 +724,7 @@
 },
 {
 "type": "Feature",
-"properties": {"source":"Alltrails Export (gpx track)","time":"2024/07/24 00:03","time_end":"2024/07/24 02:02","name":"ON_QC_Paddle_across_ottawa_river","distance":8.18,"elev_gain":3.07,"pace_moving":14.75,"pace_overall":14.79,"time_overall":121.02}
+"properties": {"source":"Alltrails Export (gpx track)","time":"2024/07/24 00:03","time_end":"2024/07/24 02:02","name":"ON_QC_Paddle_across_ottawa_river","distance_km":8.18,"elev_gain_m":3.07,"pace_moving_km_per_min":14.75,"pace_overall_km_per_min":14.79,"time_overall_min":121.02}
 ,
  "geometry": {
 "type": "LineString",
@@ -774,7 +774,7 @@
 },
 {
 "type": "Feature",
-"properties": {"source":"Alltrails Export (gpx track)","time":"2023/06/04 16:33","time_end":"2023/06/04 20:18","name":"QC_MTLParadis_Lake_with_Beaver_Dam","distance":9.48,"elev_gain":234.89,"pace_moving":20.18,"pace_overall":23.75,"time_overall":225}
+"properties": {"source":"Alltrails Export (gpx track)","time":"2023/06/04 16:33","time_end":"2023/06/04 20:18","name":"QC_MTLParadis_Lake_with_Beaver_Dam","distance_km":9.48,"elev_gain_m":234.89,"pace_moving_km_per_min":20.18,"pace_overall_km_per_min":23.75,"time_overall_min":225}
 ,
  "geometry": {
 "type": "LineString",
@@ -794,7 +794,7 @@
 },
 {
 "type": "Feature",
-"properties": {"source":"Alltrails Export (gpx track)","time":"2023/08/13 17:55","time_end":"2023/08/13 20:45","name":"QC_MTL_Bull_Falls","distance":4.89,"elev_gain":214.88,"pace_moving":23.26,"pace_overall":34.78,"time_overall":170.07}
+"properties": {"source":"Alltrails Export (gpx track)","time":"2023/08/13 17:55","time_end":"2023/08/13 20:45","name":"QC_MTL_Bull_Falls","distance_km":4.89,"elev_gain_m":214.88,"pace_moving_km_per_min":23.26,"pace_overall_km_per_min":34.78,"time_overall_min":170.07}
 ,
  "geometry": {
 "type": "LineString",
@@ -804,7 +804,7 @@
 },
 {
 "type": "Feature",
-"properties": {"source":"Alltrails Export (gpx track)","time":"2024/04/24 02:43","time_end":"2024/04/24 03:20","name":"QC_MTL_Home2XiongApt","distance":8.08,"elev_gain":11.15,"pace_moving":9.62,"pace_overall":4.65,"time_overall":37.57}
+"properties": {"source":"Alltrails Export (gpx track)","time":"2024/04/24 02:43","time_end":"2024/04/24 03:20","name":"QC_MTL_Home2XiongApt","distance_km":8.08,"elev_gain_m":11.15,"pace_moving_km_per_min":9.62,"pace_overall_km_per_min":4.65,"time_overall_min":37.57}
 ,
  "geometry": {
 "type": "LineString",
@@ -854,7 +854,17 @@
 },
 {
 "type": "Feature",
-"properties": {"source":"Alltrails Export (gpx track)","time":"2024/04/21 19:42","time_end":"2024/04/21 21:08","name":"QC_MTL_Mont_Saint-Gregoire","distance":2.95,"elev_gain":177.07,"pace_moving":16.67,"pace_overall":29.06,"time_overall":85.82}
+"properties": {"source":"Alltrails Export (gpx track)","time":"2024/09/21 16:22","time_end":"2024/09/21 20:05","name":"QC_MTL_Mont du Loup-Garou Loop","distance_km":8.77,"elev_gain_m":267.68,"pace_moving_km_per_min":17.6,"pace_overall_km_per_min":25.42,"time_overall_min":222.97}
+,
+ "geometry": {
+"type": "LineString",
+"coordinates":
+[[-74.1774,45.94511,387.81],[-74.17737,45.9452,386.68],[-74.17746,45.94522,386.46],[-74.17749,45.94516,387.51],[-74.17745,45.94515,387.55],[-74.17743,45.94522,386.34],[-74.17722,45.94521,385.73],[-74.17735,45.9452,386.68],[-74.17751,45.94535,384.44],[-74.17758,45.94528,385.95],[-74.17752,45.94532,385.09],[-74.1775,45.94551,382.49],[-74.17727,45.94568,378.49],[-74.17684,45.94575,375.57],[-74.17679,45.9458,373.41],[-74.1768,45.94594,370.22],[-74.17669,45.94595,368.99],[-74.17655,45.94588,369.73],[-74.17614,45.94587,366.52],[-74.17596,45.94579,367.3],[-74.17586,45.94561,371.52],[-74.17566,45.94551,372.6],[-74.17541,45.94518,378.52],[-74.17606,45.9453,381.97],[-74.17611,45.94521,383.72],[-74.17605,45.9451,384.26],[-74.17587,45.94499,384.57],[-74.17546,45.94494,382.64],[-74.17528,45.94481,383.08],[-74.17547,45.94472,385.02],[-74.17596,45.94465,388.29],[-74.1762,45.94449,390],[-74.17645,45.94451,390],[-74.17662,45.94431,390.5],[-74.17682,45.94424,392.45],[-74.17688,45.94387,390],[-74.17724,45.94373,390.05],[-74.1774,45.94357,390],[-74.17772,45.94347,388.1],[-74.17753,45.94353,389.72],[-74.1771,45.94385,390.39],[-74.17693,45.9442,393.2],[-74.17666,45.94454,390.93],[-74.17669,45.94471,390.38],[-74.17677,45.94481,390.17],[-74.17712,45.94491,391.84],[-74.1772,45.945,390],[-74.17719,45.94509,388.06],[-74.17747,45.94529,385.45],[-74.17755,45.94541,383.57],[-74.17747,45.94556,381.6],[-74.17725,45.94573,377.5],[-74.17685,45.9458,374.06],[-74.17677,45.94597,369.58],[-74.17685,45.94612,368],[-74.17716,45.94628,370.06],[-74.17764,45.94638,373.42],[-74.17801,45.94636,375.35],[-74.17821,45.94641,376],[-74.17816,45.94665,378.64],[-74.179,45.94706,381.79],[-74.17936,45.9472,382.13],[-74.17977,45.94726,379.3],[-74.17988,45.94736,381.12],[-74.18037,45.94757,381.52],[-74.18061,45.94747,378.95],[-74.18083,45.94749,378.89],[-74.18098,45.94771,380.11],[-74.18106,45.94774,379.82],[-74.18129,45.94773,379],[-74.18154,45.9474,378.55],[-74.18174,45.94737,381.18],[-74.18196,45.94708,382.97],[-74.18208,45.94709,386.96],[-74.18231,45.94743,400.05],[-74.18256,45.94745,409.21],[-74.18298,45.94771,422.64],[-74.18336,45.94775,430.28],[-74.18357,45.94789,436.42],[-74.18381,45.94822,439.22],[-74.18387,45.94838,437.2],[-74.18373,45.94865,433.17],[-74.18333,45.94907,423.13],[-74.18338,45.94928,417.16],[-74.18419,45.94955,410.14],[-74.18551,45.94982,429.59],[-74.18607,45.95029,440],[-74.18672,45.95024,440.75],[-74.18738,45.95032,444.25],[-74.18816,45.95074,454.12],[-74.18828,45.95077,456.16],[-74.18829,45.95073,456],[-74.18847,45.95083,459.44],[-74.18897,45.95091,460.15],[-74.19006,45.95038,471.48],[-74.1908,45.95024,467.77],[-74.1911,45.95006,468.35],[-74.19138,45.94977,469.48],[-74.19153,45.94971,469.55],[-74.19283,45.94967,468.56],[-74.19351,45.94957,469.03],[-74.19413,45.94975,465.97],[-74.19472,45.95016,459],[-74.19495,45.95015,458.71],[-74.19521,45.95029,457.74],[-74.19546,45.95027,458],[-74.19563,45.95063,455],[-74.19618,45.95066,456.87],[-74.19672,45.95049,459.88],[-74.19677,45.95043,460],[-74.19673,45.95036,460],[-74.19676,45.95024,460],[-74.19707,45.95006,458.42],[-74.19737,45.95005,456.94],[-74.19786,45.95024,454.7],[-74.19799,45.95024,453.47],[-74.19838,45.9499,442.34],[-74.19921,45.94961,437.37],[-74.19968,45.94925,441.6],[-74.19973,45.94929,442.14],[-74.19979,45.94925,443.56],[-74.19972,45.94932,441.96],[-74.19983,45.94935,443.35],[-74.20063,45.94906,450.15],[-74.20092,45.94886,454.62],[-74.2012,45.94856,459.55],[-74.20145,45.94845,459.74],[-74.20169,45.94848,457.16],[-74.20231,45.9481,450.51],[-74.2024,45.94801,450],[-74.2024,45.94779,449.01],[-74.20262,45.9477,447.16],[-74.20275,45.94747,445.38],[-74.20307,45.94731,446.16],[-74.20312,45.94715,446.7],[-74.20331,45.94696,447.96],[-74.20333,45.94677,449],[-74.20344,45.94668,450],[-74.20367,45.94654,450],[-74.20464,45.94632,456.11],[-74.20472,45.94624,457.58],[-74.20471,45.94606,459.42],[-74.20479,45.94598,461.15],[-74.20507,45.94593,463.76],[-74.20576,45.946,470],[-74.20617,45.94588,472.32],[-74.20635,45.94591,473.1],[-74.2069,45.94578,474.58],[-74.20751,45.94575,473.81],[-74.20769,45.94558,477.49],[-74.20784,45.94536,481.15],[-74.20778,45.94536,481.22],[-74.20801,45.94527,483.08],[-74.2083,45.94487,487.4],[-74.20843,45.94482,487.99],[-74.20857,45.9449,488.08],[-74.20883,45.94493,489.12],[-74.20918,45.94479,491.41],[-74.20933,45.94448,495.47],[-74.20949,45.9443,498.56],[-74.20968,45.94419,500],[-74.20975,45.94404,500.56],[-74.20975,45.9438,500.01],[-74.20969,45.94376,499.61],[-74.20942,45.94379,496.65],[-74.20953,45.94372,498.02],[-74.20975,45.94378,499.88],[-74.20972,45.94385,500],[-74.20974,45.94377,499.77],[-74.20961,45.94378,499.61],[-74.20951,45.94368,496.72],[-74.20903,45.94364,486.15],[-74.20876,45.94379,485.91],[-74.20872,45.94392,487.4],[-74.20865,45.94395,487.66],[-74.20826,45.94388,488.7],[-74.20788,45.94366,488],[-74.20769,45.94341,481.31],[-74.20764,45.94325,474.35],[-74.2077,45.94324,473.98],[-74.20764,45.94326,474.73],[-74.20766,45.94343,481.86],[-74.20786,45.94371,489.01],[-74.20799,45.94374,488.39],[-74.20807,45.94384,489.47],[-74.20767,45.94405,490],[-74.20754,45.94433,490.43],[-74.2068,45.94435,482.86],[-74.20658,45.94428,476.35],[-74.20647,45.944,471.15],[-74.20649,45.9439,469.42],[-74.20686,45.94321,462.45],[-74.20713,45.94297,463.08],[-74.20728,45.94297,464.7],[-74.20759,45.94285,464.54],[-74.20764,45.94276,462.81],[-74.20751,45.94272,462.38],[-74.20714,45.94283,461.68],[-74.20626,45.94258,448.27],[-74.20617,45.94243,448.39],[-74.20579,45.9423,448.16],[-74.2057,45.94203,450],[-74.20544,45.94176,447.76],[-74.2048,45.94169,437.18],[-74.20486,45.94156,435.26],[-74.20477,45.94144,433.77],[-74.20452,45.94147,435.17],[-74.2035,45.94213,440.59],[-74.20332,45.94256,438.64],[-74.20313,45.94283,438.74],[-74.20306,45.94327,438.95],[-74.20262,45.9438,440],[-74.20217,45.94389,441.01],[-74.20104,45.94385,432.23],[-74.20057,45.94397,426.29],[-74.19982,45.94441,414.06],[-74.19966,45.94461,411.33],[-74.19948,45.94466,408.64],[-74.19847,45.94424,409.1],[-74.19813,45.94399,407.71],[-74.19727,45.94385,405.06],[-74.19619,45.94336,402.56],[-74.19601,45.94314,400.82],[-74.19595,45.94285,399.26],[-74.19583,45.94269,399],[-74.19588,45.94266,399],[-74.19575,45.94265,399],[-74.19581,45.94261,399],[-74.19572,45.94264,399],[-74.19582,45.94261,399],[-74.19574,45.94264,399],[-74.19588,45.94265,399],[-74.19522,45.94154,403.11],[-74.19477,45.9413,404.96],[-74.19394,45.94107,403.86],[-74.19314,45.94057,405.86],[-74.19283,45.94052,408.17],[-74.19225,45.94076,405.09],[-74.19151,45.94124,405.5],[-74.19051,45.94158,415.56],[-74.18893,45.94236,420.28],[-74.18856,45.94243,420.76],[-74.18824,45.94259,418.04],[-74.18788,45.94267,418.16],[-74.18582,45.94346,406.8],[-74.18431,45.94361,392.11],[-74.18312,45.9435,378.44],[-74.18224,45.94361,379],[-74.18145,45.94386,381.34],[-74.18085,45.9442,387.46],[-74.18043,45.94457,387.64],[-74.17884,45.94528,386.95],[-74.17843,45.94535,386.44],[-74.17816,45.94518,389.29],[-74.17791,45.94515,389.41],[-74.17775,45.94519,387.9]]
+}
+},
+{
+"type": "Feature",
+"properties": {"source":"Alltrails Export (gpx track)","time":"2024/04/21 19:42","time_end":"2024/04/21 21:08","name":"QC_MTL_Mont_Saint-Gregoire","distance_km":2.95,"elev_gain_m":177.07,"pace_moving_km_per_min":16.67,"pace_overall_km_per_min":29.06,"time_overall_min":85.82}
 ,
  "geometry": {
 "type": "LineString",
@@ -864,7 +874,7 @@
 },
 {
 "type": "Feature",
-"properties": {"source":"Alltrails Export (gpx track)","time":"2023/10/14 15:57","time_end":"2023/10/14 20:09","name":"QC_MTL_Mont_Sourire","distance":9.77,"elev_gain":356.75,"pace_moving":21.92,"pace_overall":25.76,"time_overall":251.63}
+"properties": {"source":"Alltrails Export (gpx track)","time":"2023/10/14 15:57","time_end":"2023/10/14 20:09","name":"QC_MTL_Mont_Sourire","distance_km":9.77,"elev_gain_m":356.75,"pace_moving_km_per_min":21.92,"pace_overall_km_per_min":25.76,"time_overall_min":251.63}
 ,
  "geometry": {
 "type": "LineString",
@@ -874,7 +884,7 @@
 },
 {
 "type": "Feature",
-"properties": {"source":"Alltrails Export (gpx track)","time":"2024/09/22 12:26","time_end":"2024/09/22 14:58","name":"QC_MTL_Montreal half marathon 2024","distance":21.58,"elev_gain":102.44,"pace_moving":10.47,"pace_overall":7.08,"time_overall":152.82}
+"properties": {"source":"Alltrails Export (gpx track)","time":"2024/09/22 12:26","time_end":"2024/09/22 14:58","name":"QC_MTL_Montreal half marathon 2024","distance_km":21.58,"elev_gain_m":102.44,"pace_moving_km_per_min":10.47,"pace_overall_km_per_min":7.08,"time_overall_min":152.82}
 ,
  "geometry": {
 "type": "LineString",
@@ -894,7 +904,7 @@
 },
 {
 "type": "Feature",
-"properties": {"source":"Alltrails Export (gpx track)","time":"2023/06/04 16:33","time_end":"2023/06/04 20:18","name":"QC_MTL_Paradis_Lake_with_Beaver_Dam","distance":9.48,"elev_gain":234.89,"pace_moving":20.18,"pace_overall":23.75,"time_overall":225}
+"properties": {"source":"Alltrails Export (gpx track)","time":"2023/06/04 16:33","time_end":"2023/06/04 20:18","name":"QC_MTL_Paradis_Lake_with_Beaver_Dam","distance_km":9.48,"elev_gain_m":234.89,"pace_moving_km_per_min":20.18,"pace_overall_km_per_min":23.75,"time_overall_min":225}
 ,
  "geometry": {
 "type": "LineString",
@@ -914,7 +924,7 @@
 },
 {
 "type": "Feature",
-"properties": {"source":"Alltrails Export (gpx track)","time":"2023/05/14 16:50","time_end":"2023/05/14 22:53","name":"QC_MTL_Sept_Chutes","distance":12.12,"elev_gain":688.18,"pace_moving":23.8,"pace_overall":30.02,"time_overall":363.88}
+"properties": {"source":"Alltrails Export (gpx track)","time":"2023/05/14 16:50","time_end":"2023/05/14 22:53","name":"QC_MTL_Sept_Chutes","distance_km":12.12,"elev_gain_m":688.18,"pace_moving_km_per_min":23.8,"pace_overall_km_per_min":30.02,"time_overall_min":363.88}
 ,
  "geometry": {
 "type": "LineString",
@@ -924,7 +934,7 @@
 },
 {
 "type": "Feature",
-"properties": {"source":"Alltrails Export (gpx track)","time":"2023/07/29 16:32","time_end":"2023/07/29 19:30","name":"QC_MTL_Sutton_incomplete","distance":6.89,"elev_gain":440.74,"pace_moving":19.19,"pace_overall":25.97,"time_overall":178.93}
+"properties": {"source":"Alltrails Export (gpx track)","time":"2023/07/29 16:32","time_end":"2023/07/29 19:30","name":"QC_MTL_Sutton_incomplete","distance_km":6.89,"elev_gain_m":440.74,"pace_moving_km_per_min":19.19,"pace_overall_km_per_min":25.97,"time_overall_min":178.93}
 ,
  "geometry": {
 "type": "LineString",
@@ -944,7 +954,7 @@
 },
 {
 "type": "Feature",
-"properties": {"source":"Alltrails Export (gpx track)","time":"2024/04/20 16:39","time_end":"2024/04/20 21:46","name":"QC_Orford_Mont_Chauve_via_Ruisseau-David","distance":14.44,"elev_gain":565.91,"pace_moving":20.1,"pace_overall":21.32,"time_overall":307.77}
+"properties": {"source":"Alltrails Export (gpx track)","time":"2024/04/20 16:39","time_end":"2024/04/20 21:46","name":"QC_Orford_Mont_Chauve_via_Ruisseau-David","distance_km":14.44,"elev_gain_m":565.91,"pace_moving_km_per_min":20.1,"pace_overall_km_per_min":21.32,"time_overall_min":307.77}
 ,
  "geometry": {
 "type": "LineString",
@@ -954,7 +964,7 @@
 },
 {
 "type": "Feature",
-"properties": {"source":"Alltrails Export (gpx track)","time":"2024/04/28 15:48","time_end":"2024/04/28 19:03","name":"QC_Ottawa_Wolf_Trail_62_Loop_via_Blanchet","distance":8.86,"elev_gain":316.94,"pace_moving":20.82,"pace_overall":22.02,"time_overall":195.03}
+"properties": {"source":"Alltrails Export (gpx track)","time":"2024/04/28 15:48","time_end":"2024/04/28 19:03","name":"QC_Ottawa_Wolf_Trail_62_Loop_via_Blanchet","distance_km":8.86,"elev_gain_m":316.94,"pace_moving_km_per_min":20.82,"pace_overall_km_per_min":22.02,"time_overall_min":195.03}
 ,
  "geometry": {
 "type": "LineString",
@@ -974,7 +984,7 @@
 },
 {
 "type": "Feature",
-"properties": {"source":"Alltrails Export (gpx track)","time":"2024/08/03 21:06","time_end":"2024/08/03 23:53","name":"QC_Parc_national_du_Bic_The_grand_Tour","distance":9.43,"elev_gain":255.3,"pace_moving":17.14,"pace_overall":17.7,"time_overall":166.95}
+"properties": {"source":"Alltrails Export (gpx track)","time":"2024/08/03 21:06","time_end":"2024/08/03 23:53","name":"QC_Parc_national_du_Bic_The_grand_Tour","distance_km":9.43,"elev_gain_m":255.3,"pace_moving_km_per_min":17.14,"pace_overall_km_per_min":17.7,"time_overall_min":166.95}
 ,
  "geometry": {
 "type": "LineString",
@@ -1034,7 +1044,7 @@
 },
 {
 "type": "Feature",
-"properties": {"source":"Alltrails Export (gpx track)","time":"2023/05/20 13:54","time_end":"2023/05/20 16:05","name":"QC_Trembalnt L_Envol Mount","distance":5.87,"elev_gain":244.56,"pace_moving":19.64,"pace_overall":22.3,"time_overall":131.03}
+"properties": {"source":"Alltrails Export (gpx track)","time":"2023/05/20 13:54","time_end":"2023/05/20 16:05","name":"QC_Trembalnt L_Envol Mount","distance_km":5.87,"elev_gain_m":244.56,"pace_moving_km_per_min":19.64,"pace_overall_km_per_min":22.3,"time_overall_min":131.03}
 ,
  "geometry": {
 "type": "LineString",
@@ -1054,7 +1064,7 @@
 },
 {
 "type": "Feature",
-"properties": {"source":"Alltrails Export (gpx track)","time":"2024/05/19 15:13","time_end":"2024/05/19 17:21","name":"QC_Tremblant_Serpentine_Path_Loop","distance":6.65,"elev_gain":265.33,"pace_moving":15.79,"pace_overall":19.22,"time_overall":127.7}
+"properties": {"source":"Alltrails Export (gpx track)","time":"2024/05/19 15:13","time_end":"2024/05/19 17:21","name":"QC_Tremblant_Serpentine_Path_Loop","distance_km":6.65,"elev_gain_m":265.33,"pace_moving_km_per_min":15.79,"pace_overall_km_per_min":19.22,"time_overall_min":127.7}
 ,
  "geometry": {
 "type": "LineString",
@@ -1064,7 +1074,7 @@
 },
 {
 "type": "Feature",
-"properties": {"source":"Alltrails Export (gpx track)","time":"2024/09/28 15:54","time_end":"2024/09/28 23:11","name":"QC_Tremblant_Summit of Mont Tremblant via Grand Brulé and Les Caps","distance":14.31,"elev_gain":693.06,"pace_moving":20.59,"pace_overall":30.52,"time_overall":436.73}
+"properties": {"source":"Alltrails Export (gpx track)","time":"2024/09/28 15:54","time_end":"2024/09/28 23:11","name":"QC_Tremblant_Summit of Mont Tremblant via Grand Brulé and Les Caps","distance_km":14.31,"elev_gain_m":693.06,"pace_moving_km_per_min":20.59,"pace_overall_km_per_min":30.52,"time_overall_min":436.73}
 ,
  "geometry": {
 "type": "LineString",
@@ -1104,7 +1114,7 @@
 },
 {
 "type": "Feature",
-"properties": {"source":"Alltrails Export (gpx track)","time":"2023/12/28 20:04","time_end":"2023/12/28 21:06","name":"TX_Big_Bend_NP_Boquillas_Canyon","distance":2.99,"elev_gain":149.72,"pace_moving":19.4,"pace_overall":20.99,"time_overall":62.8}
+"properties": {"source":"Alltrails Export (gpx track)","time":"2023/12/28 20:04","time_end":"2023/12/28 21:06","name":"TX_Big_Bend_NP_Boquillas_Canyon","distance_km":2.99,"elev_gain_m":149.72,"pace_moving_km_per_min":19.4,"pace_overall_km_per_min":20.99,"time_overall_min":62.8}
 ,
  "geometry": {
 "type": "LineString",
@@ -1114,7 +1124,7 @@
 },
 {
 "type": "Feature",
-"properties": {"source":"Alltrails Export (gpx track)","time":"2023/12/28 21:33","time_end":"2023/12/29 00:33","name":"TX_Big_Bend_NP_Hot_Spring_Ernst_Ridge","distance":8.83,"elev_gain":262.5,"pace_moving":15.28,"pace_overall":20.29,"time_overall":179.08}
+"properties": {"source":"Alltrails Export (gpx track)","time":"2023/12/28 21:33","time_end":"2023/12/29 00:33","name":"TX_Big_Bend_NP_Hot_Spring_Ernst_Ridge","distance_km":8.83,"elev_gain_m":262.5,"pace_moving_km_per_min":15.28,"pace_overall_km_per_min":20.29,"time_overall_min":179.08}
 ,
  "geometry": {
 "type": "LineString",
@@ -1124,7 +1134,7 @@
 },
 {
 "type": "Feature",
-"properties": {"source":"Alltrails Export (gpx track)","time":"2023/12/28 14:25","time_end":"2023/12/28 17:29","name":"TX_Big_Bend_NP_Lost_Mine_Trail","distance":8.62,"elev_gain":353.8,"pace_moving":17.31,"pace_overall":21.27,"time_overall":183.38}
+"properties": {"source":"Alltrails Export (gpx track)","time":"2023/12/28 14:25","time_end":"2023/12/28 17:29","name":"TX_Big_Bend_NP_Lost_Mine_Trail","distance_km":8.62,"elev_gain_m":353.8,"pace_moving_km_per_min":17.31,"pace_overall_km_per_min":21.27,"time_overall_min":183.38}
 ,
  "geometry": {
 "type": "LineString",
@@ -1164,7 +1174,7 @@
 },
 {
 "type": "Feature",
-"properties": {"source":"Alltrails Export (gpx track)","time":"2023/12/27 15:33","time_end":"2023/12/27 18:01","name":"TX_Big_Bend_NP_The_Window_Trail","distance":10.38,"elev_gain":341.4,"pace_moving":13.68,"pace_overall":14.26,"time_overall":148.08}
+"properties": {"source":"Alltrails Export (gpx track)","time":"2023/12/27 15:33","time_end":"2023/12/27 18:01","name":"TX_Big_Bend_NP_The_Window_Trail","distance_km":10.38,"elev_gain_m":341.4,"pace_moving_km_per_min":13.68,"pace_overall_km_per_min":14.26,"time_overall_min":148.08}
 ,
  "geometry": {
 "type": "LineString",
